@@ -1,9 +1,11 @@
-# LikedVideoLister-dotnet
+# LikedVideoLister
 
 A lister for liked videos from YouTube in .NET C# if you hate the web app or
-mobile app. This is created because I now have no plans for the Python version,
+mobile app. This is created because there are no plans for the Python version,
 .NET has a better platform support for mobile and C# is a better language to
-work with JSON data than Python with the .NET library that is provided.
+work with JSON data than Python with the .NET libraries that is provided.
+
+This is the main implementation of the library.
 
 ## Dependencies
 
