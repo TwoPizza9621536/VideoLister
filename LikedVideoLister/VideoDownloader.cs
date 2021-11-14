@@ -22,7 +22,7 @@ namespace LikedVideoLister
     public class VideoDownloader
     {
         /// <summary>
-        /// Gets YouTube credential using OAuth 2.0. 
+        /// Gets YouTube credential using OAuth 2.0.
         /// </summary>
         /// <returns>
         /// YouTube OAuth 2.0 Credential.
@@ -44,12 +44,12 @@ namespace LikedVideoLister
                     new FileDataStore(this.GetType().ToString()));
             }
 
-            YouTubeService youtubeService = new YouTubeService(new
-                BaseClientService.Initializer()
-            {
-                HttpClientInitializer = Credential,
-                ApplicationName = GetType().ToString()
-            });
+            YouTubeService youtubeService = new YouTubeService(
+                new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer = Credential,
+                    ApplicationName = GetType().ToString()
+                });
 
             return youtubeService;
         }
@@ -75,11 +75,11 @@ namespace LikedVideoLister
 
             List<Video> Videos = new List<Video>();
 
+            // Get the list of liked videos and add it to a list
             foreach (Channel channel in channelsListResponse.Items)
             {
                 string likedListId =
                     channel.ContentDetails.RelatedPlaylists.Likes;
-
                 string nextPageToken = "";
                 while (nextPageToken != null)
                 {
@@ -102,16 +102,15 @@ namespace LikedVideoLister
                         };
                         Videos.Add(VideoItem);
                     }
-
                     nextPageToken = playlistItemsListResponse.NextPageToken;
                 }
-
             }
 
-            // Converts the list to json 
+            // Converts the list to a json object
             string RawJson = JsonConvert.SerializeObject(Videos);
             string JsonSchema = "$Schema";
-            string SchemaURI = "https://github.com/TwoPizza9621536/schemas/blob/main/videolist.json";
+            string SchemaURI =
+                "https://twopizza9621536.github.io/schema/json/videolist.json";
 
             JArray JsonArray = JArray.Parse(RawJson);
             JObject JsonObject = new JObject
@@ -119,15 +118,32 @@ namespace LikedVideoLister
                 { JsonSchema, SchemaURI }
             };
             JsonObject["Videos"] = JsonArray;
-
             return JsonObject;
+        }
+    }
+
+    /// <summary>
+    /// A json decoder for the videos
+    /// </summary>
+    public class JsonDecoder
+    {
+        /// <summary>
+        /// Decodes json object to a immutable list
+        /// </summary>
+        /// <param name="JsonObject">The json object to decode</param>
+        /// <returns>A immutable list of decoded objects</returns>
+        public static IList<Video> DecodeJson(JObject JsonObject)
+        {
+            JArray JsonArray = (JArray)JsonObject["Videos"];
+            IList<Video> Videos = JsonArray.ToObject<IList<Video>>();
+            return Videos;
         }
     }
 
     /// <summary>
     /// Organize the video's title and id.
     /// </summary>
-    internal class Video
+    public class Video
     {
         public string Title { get; set; }
         public string Id { get; set; }

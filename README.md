@@ -3,24 +3,34 @@
 A lister for liked videos from YouTube in .NET C# if you hate the web app or
 mobile app. This is created because I now have no plans for the Python version,
 .NET has a better platform support for mobile and C# is a better language to
-work with JSON data than Python.
+work with JSON data than Python with the .NET library that is provided.
 
+## Dependencies
 
-## Dependices
-
-### The Library and Console Application
+### The Library
 
 - .NET Core 2.1 or .NET Framework 4.6.1 (.NET Standard 2) or later
 - Visual Studio 2019 or later (Optional)
   - Google's and YouTube's API and libraries
     - Google.Apis.YouTube.v3
     - Newtonsoft.Json
+- Also an internet connection to download the videos
 
-### The GUI Application
+### Console Application (TestApp)
+
+- .NET Core 3.1 or later
+- The Library
+
+### Blazor WebAssembly Application (BlazorApp)
+
+- .NET 5.0 or later
+  - The Library
+
+### The GUI (MAUI) Application (MauiApp)
 
 - .NET Core 6 or later
 - Visual Studio 2022 or later
-  - The library
+  - The Library
 
 ## Setup
 
@@ -28,7 +38,10 @@ work with JSON data than Python.
 
 Use Visual Studio and click on the solution file.
 
-Then build the projects.
+Then click `Build` to build the projects.
+
+Open the project you want to run, then click `Run Without Debugging` to
+run the application.
 
 ### .NET SDK
 
@@ -38,10 +51,19 @@ For .NET SDK use the following `dotnet` command in the solution directory:
 dotnet build
 ```
 
+Then use `dotnet run` to run the application in the project directory.
+
 ## License
 
 This application is licensed under the BSD 3 Clause License.
-See LICENSE for the Dependencies.
+
+Additionally you are subjected under Google's and YouTube's ToS and Privacy
+Policy for APIs and Services. The libraries are under the Apache Version 2.0
+license.
+
+Newtonsoft.Json is licensed under the MIT License.
+
+See the `LICENSE` file for the licenses.
 
 ```markdown
 BSD 3-Clause License
