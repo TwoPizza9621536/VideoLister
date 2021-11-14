@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<Authors>Samuel Wu</Authors>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
+		<PackageTags>YouTube</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="True" PackagePath="/" />
+		<None Include="..\LICENSE" Pack="True" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\LikedVideoLister\LikedVideoLister.csproj" />
+	</ItemGroup>
+
+</Project>

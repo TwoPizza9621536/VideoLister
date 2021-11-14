@@ -1,8 +1,9 @@
 # LikedVideoLister-dotnet
 
 A lister for liked videos from YouTube in .NET C# if you hate the web app or
-mobile app. This is created because the Python version is stalled until I have
-plans to work on it again.
+mobile app. This is created because I now have no plans for the Python version,
+.NET has a better platform support for mobile and C# is a better language to
+work with JSON data than Python.
 
 
 ## Dependices
@@ -13,21 +14,25 @@ plans to work on it again.
 - Visual Studio 2019 or later (Optional)
   - Google's and YouTube's API and libraries
     - Google.Apis.YouTube.v3
-  - Newtonsoft.Json
+    - Newtonsoft.Json
 
 ### The GUI Application
 
 - .NET Core 6 or later
 - Visual Studio 2022 or later
-  - And the library
+  - The library
 
 ## Setup
 
+### Visual Studio
+
 Use Visual Studio and click on the solution file.
 
-The build the library.
+Then build the projects.
 
-For .NET use the following `dotnet` command:
+### .NET SDK
+
+For .NET SDK use the following `dotnet` command in the solution directory:
 
 ```bash
 dotnet build
@@ -36,6 +41,7 @@ dotnet build
 ## License
 
 This application is licensed under the BSD 3 Clause License.
+See LICENSE for the Dependencies.
 
 ```markdown
 BSD 3-Clause License
