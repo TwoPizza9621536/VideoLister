@@ -61,7 +61,7 @@ namespace LikedVideoLister
         /// YouTube OAuth 2.0 Credential.
         /// </param>
         /// <returns>
-        /// List of liked videos as json.
+        /// List of liked videos as JSON.
         /// </returns>
         public static async Task<JObject> GetVideos(
             YouTubeService youtubeService)
@@ -106,7 +106,7 @@ namespace LikedVideoLister
                 }
             }
 
-            // Converts the list to a json object
+            // Converts the list to a JSON object
             string RawJson = JsonConvert.SerializeObject(Videos);
             string JsonSchema = "$Schema";
             string SchemaURI =
@@ -123,14 +123,14 @@ namespace LikedVideoLister
     }
 
     /// <summary>
-    /// A json decoder for the videos
+    /// A JSON decoder for the videos
     /// </summary>
     public class JsonDecoder
     {
         /// <summary>
-        /// Decodes json object to a immutable list
+        /// Decodes JSON object to a immutable list
         /// </summary>
-        /// <param name="JsonObject">The json object to decode</param>
+        /// <param name="JsonObject">The JSON object to decode</param>
         /// <returns>A immutable list of decoded objects</returns>
         public static IList<Video> DecodeJson(JObject JsonObject)
         {

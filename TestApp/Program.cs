@@ -19,37 +19,36 @@ namespace TestApp
     {
         static async Task Main()
         {
-            // Write welcome message and license infomation
+            // Write welcome message and license information
             Console.WriteLine("LikedVideoLister");
-            Console.WriteLine("==============================================");
+            Console.WriteLine("=============================================");
             Console.WriteLine(
                 "Welcome, this is a program that lists all liked " +
-                "videos from youtube.\nThis program is licensed under the " +
+                "videos from YouTube.\nThis program is licensed under the " +
                 "BSD 3-Clause License.\n\nBy using this program, you" +
-                "automatically agree to the Google's and Youtube's ToS" +
+                "automatically agree to the Google's and YouTube's ToS" +
                 "and Privacy Policy.");
 
             // Ask the user if they want to continue
-            Console.WriteLine(
+            Console.Write(
                 "Do you want to use this program, press 'Y' for " +
                 "yes and 'N' for no: ");
-            ConsoleKey input = new ConsoleKey();
             while (true)
             {
-                input = Console.ReadKey().Key;
-                Console.WriteLine();
+                ConsoleKey input = Console.ReadKey().Key;
                 if (input == ConsoleKey.N)
                     Environment.Exit(1);
                 else if (input == ConsoleKey.Y)
                     break;
+                Console.WriteLine();
                 Console.WriteLine("Please press 'Y' or 'N': ");
             }
 
-            // Downloader the video infomation using the likedvideoslister
+            // Download the video information using the LikedVideosLister
             // library
             try
             {
-                Console.WriteLine("Please wait. Downlading videos.\n");
+                Console.WriteLine("Please wait. Downloading videos.\n");
                 VideoDownloader Downloader = new VideoDownloader();
                 YouTubeService youtubeService =
                     await Downloader.GetAuthCredentials();
@@ -57,13 +56,15 @@ namespace TestApp
                     await VideoDownloader.GetVideos(youtubeService);
                 IList<Video> Videos = JsonDecoder.DecodeJson(JsonObject);
 
-                Console.WriteLine("     Video Title      |      Video ID     ");
-                Console.WriteLine("==========================================");
+                Console.WriteLine("     Video Title     |     Video ID      ");
+                Console.WriteLine("=========================================");
 
                 int ListIndex = 0;
                 for (int I = 0; I < 50; I++)
                 {
-                    for (int J = ListIndex; J < ((int)Videos.Count); J++)
+                    for (int J = ListIndex;
+                        J < (int)Videos.Count - ListIndex;
+                        J++)
                     {
                         Console.WriteLine(
                             "{0} | {1}",
@@ -77,15 +78,16 @@ namespace TestApp
             }
             catch (FileNotFoundException E)
             {
-                Console.Write("To use this Application, you will need a ");
-                Console.Write("\"client_secret.json\" in the application's ");
-                Console.WriteLine("directory.");
+                Console.WriteLine(
+                    "To use this Application, you will need a " +
+                    "\"client_secret.json\" in the application's directory.");
                 Console.WriteLine(E.Message);
             }
             catch (HttpRequestException E)
             {
-                Console.Write("You will need an internet connection to use ");
-                Console.WriteLine("this application.");
+                Console.WriteLine(
+                    "You will need an Internet connection to use " +
+                    "this application.");
                 Console.WriteLine(E.Message);
             }
 
