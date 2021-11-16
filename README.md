@@ -5,17 +5,19 @@ mobile app. This is created because there are no plans for the Python version,
 .NET has a better platform support for mobile and C# is a better language to
 work with JSON data than Python with the .NET libraries that is provided.
 
-This is the main implementation of the library.
+This is the main implementation of the library. There is also a serializer and
+deserializer for JSON using Newtonsoft.Json.
 
 ## Dependencies
 
-### The Library
-
 - .NET Core 2.1 / .NET Framework 4.6.2 (.NET Standard 2) or later
 - Visual Studio 2019, 2022 or later (Optional)
-  - Google's and YouTube's API and libraries
-    - [Google.Apis.YouTube.v3][https://developers.google.com/youtube/v3/]
-    - [Newtonsoft.Json][https://www.newtonsoft.com/]
+
+### The Library
+
+- Google's and YouTube's API and libraries
+  - [Google.Apis.YouTube.v3][https://developers.google.com/youtube/v3/]
+  - [Newtonsoft.Json][https://www.newtonsoft.com/]
 - Also an Internet connection to download the videos
 
 ### Console Application (TestApp)
