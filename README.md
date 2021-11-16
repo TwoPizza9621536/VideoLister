@@ -11,28 +11,24 @@ This is the main implementation of the library.
 
 ### The Library
 
-- .NET Core 2.1 or .NET Framework 4.6.1 (.NET Standard 2) or later
-- Visual Studio 2019 or later (Optional)
+- .NET Core 2.1 / .NET Framework 4.6.2 (.NET Standard 2) or later
+- Visual Studio 2019, 2022 or later (Optional)
   - Google's and YouTube's API and libraries
-    - Google.Apis.YouTube.v3
-    - Newtonsoft.Json
-- Also an internet connection to download the videos
+    - [Google.Apis.YouTube.v3][https://developers.google.com/youtube/v3/]
+    - [Newtonsoft.Json][https://www.newtonsoft.com/]
+- Also an Internet connection to download the videos
 
 ### Console Application (TestApp)
 
 - .NET Core 3.1 or later
 - The Library
 
-### Blazor WebAssembly Application (BlazorApp)
+### The GUI Application (TestGUI{.PLATFORM})
 
-- .NET 5.0 or later
+- .NET Core 5 or later
   - The Library
-
-### The GUI (MAUI) Application (MauiApp)
-
-- .NET Core 6 or later
-- Visual Studio 2022 or later
-  - The Library
+  - [Eto.Forms{.PLATFORM}][https://github.com/picoe/Eto]
+    - [GtkSharp][https://github.com/GtkSharp/GtkSharp] for Linux
 
 ## Setup
 
@@ -42,8 +38,8 @@ Use Visual Studio and click on the solution file.
 
 Then click `Build` to build the projects.
 
-Open the project you want to run, then click `Run Without Debugging` to
-run the application.
+Open and select the project you want to run,
+then click `Run Without Debugging` to run the application.
 
 ### .NET SDK
 
@@ -60,10 +56,14 @@ Then use `dotnet run` to run the application in the project directory.
 This application is licensed under the BSD 3 Clause License.
 
 Additionally you are subjected under Google's and YouTube's ToS and Privacy
-Policy for APIs and Services. The libraries are under the Apache Version 2.0
-license.
+Policy for APIs and Services. The libraries and snippets are under the Apache
+Version 2.0 license.
 
 Newtonsoft.Json is licensed under the MIT License.
+
+Eto.Forms is under the BSD 3-Clause License.
+
+GtkSharp is under the LGPLv2 license.
 
 See the `LICENSE` file for the licenses.
 
