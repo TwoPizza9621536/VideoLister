@@ -41,14 +41,14 @@ namespace TestApp
                 else if (input == ConsoleKey.Y)
                     break;
                 Console.WriteLine();
-                Console.WriteLine("Please press 'Y' or 'N': ");
+                Console.Write("Please press 'Y' or 'N': ");
             }
 
             // Download the video information using the LikedVideosLister
             // library
             try
             {
-                Console.WriteLine("Please wait. Downloading videos.\n");
+                Console.WriteLine("\nPlease wait. Downloading videos.\n");
                 VideoDownloader Downloader = new VideoDownloader();
                 YouTubeService youtubeService =
                     await Downloader.GetAuthCredentials();
