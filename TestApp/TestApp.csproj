@@ -12,6 +12,9 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
+		<Description>A test program that goes along with the LikedVideoLister Library.</Description>
+		<PackageReleaseNotes>Fix showing 50 videos at a time.</PackageReleaseNotes>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
 	</PropertyGroup>
 
 

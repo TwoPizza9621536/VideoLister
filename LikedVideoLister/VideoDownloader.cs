@@ -6,8 +6,6 @@ using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -61,9 +59,9 @@ namespace LikedVideoLister
         /// YouTube OAuth 2.0 Credential.
         /// </param>
         /// <returns>
-        /// List of liked videos as JSON.
+        /// List of liked videos as a List.
         /// </returns>
-        public static async Task<JObject> GetVideos(
+        public static async Task<List<Video>> GetVideos(
             YouTubeService youtubeService)
         {
             ChannelsResource.ListRequest channelsListRequest =
@@ -105,43 +103,12 @@ namespace LikedVideoLister
                     nextPageToken = playlistItemsListResponse.NextPageToken;
                 }
             }
-
-            // Converts the list to a JSON object
-            string RawJson = JsonConvert.SerializeObject(Videos);
-            string JsonSchema = "$Schema";
-            string SchemaURI =
-                "https://twopizza9621536.github.io/schema/json/videolist.json";
-
-            JArray JsonArray = JArray.Parse(RawJson);
-            JObject JsonObject = new JObject
-            {
-                { JsonSchema, SchemaURI }
-            };
-            JsonObject["Videos"] = JsonArray;
-            return JsonObject;
-        }
-    }
-
-    /// <summary>
-    /// A JSON decoder for the videos
-    /// </summary>
-    public class JsonDecoder
-    {
-        /// <summary>
-        /// Decodes JSON object to a immutable list
-        /// </summary>
-        /// <param name="JsonObject">The JSON object to decode</param>
-        /// <returns>A immutable list of decoded objects</returns>
-        public static IList<Video> DecodeJson(JObject JsonObject)
-        {
-            JArray JsonArray = (JArray)JsonObject["Videos"];
-            IList<Video> Videos = JsonArray.ToObject<IList<Video>>();
             return Videos;
         }
     }
 
     /// <summary>
-    /// Organize the video's title and id.
+    /// Video class with title and id.
     /// </summary>
     public class Video
     {
