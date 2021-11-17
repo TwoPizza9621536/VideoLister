@@ -3,7 +3,6 @@
 // SPDX-License-Identifier: BSD-3-Clause
 using Google.Apis.YouTube.v3;
 using LikedVideoLister;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -21,18 +20,18 @@ namespace TestApp
         {
             // Write welcome message and license information
             Console.WriteLine("LikedVideoLister");
-            Console.WriteLine("=============================================");
+            Console.WriteLine("==============================================");
             Console.WriteLine(
                 "Welcome, this is a program that lists all liked " +
                 "videos from YouTube.\nThis program is licensed under the " +
                 "BSD 3-Clause License.\n\nBy using this program, you" +
-                "automatically agree to the Google's and YouTube's ToS" +
-                "and Privacy Policy.");
+                "automatically agree to the Google's and YouTube's ToS and " +
+                "Privacy Policy.");
 
             // Ask the user if they want to continue
             Console.Write(
-                "Do you want to use this program, press 'Y' for " +
-                "yes and 'N' for no: ");
+                "Do you want to use this program, press 'Y' for yes and 'N' " +
+                "for no: ");
             while (true)
             {
                 ConsoleKey input = Console.ReadKey().Key;
@@ -52,28 +51,22 @@ namespace TestApp
                 VideoDownloader Downloader = new VideoDownloader();
                 YouTubeService youtubeService =
                     await Downloader.GetAuthCredentials();
-                JObject JsonObject =
+                List<Video> Videos =
                     await VideoDownloader.GetVideos(youtubeService);
-                IList<Video> Videos = JsonDecoder.DecodeJson(JsonObject);
 
-                Console.WriteLine("     Video Title     |     Video ID      ");
-                Console.WriteLine("=========================================");
+                Console.WriteLine("     Video Title     |      Video ID      ");
+                Console.WriteLine("==========================================");
 
-                int ListIndex = 0;
-                for (int I = 0; I < 50; I++)
+                for (int I = 0; I < Videos.Count; I++)
                 {
-                    for (int J = ListIndex;
-                        J < (int)Videos.Count - ListIndex;
-                        J++)
+                    Console.WriteLine("{0} | {1}",
+                        Videos[I].Title,
+                        Videos[I].Id);
+                    if (I % 20 == 0)
                     {
-                        Console.WriteLine(
-                            "{0} | {1}",
-                            Videos[J].Title,
-                            Videos[J].Id);
+                        Console.WriteLine("Press enter to continue...");
+                        while (Console.ReadKey().Key != ConsoleKey.Enter) ;
                     }
-                    Console.WriteLine("Press enter to continue...");
-                    while (Console.ReadKey().Key != ConsoleKey.Enter) ;
-                    ListIndex += 50;
                 }
             }
             catch (FileNotFoundException E)
@@ -86,11 +79,10 @@ namespace TestApp
             catch (HttpRequestException E)
             {
                 Console.WriteLine(
-                    "You will need an Internet connection to use " +
-                    "this application.");
+                    "You will need an Internet connection to use this " +
+                    "application.");
                 Console.WriteLine(E.Message);
             }
-
             // Exits the application
             Console.WriteLine("Done. Press any key to exit.");
             Console.ReadKey();

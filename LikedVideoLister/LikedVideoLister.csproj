@@ -11,6 +11,11 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
+		<BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+		<Description>A lister for liked videos on YouTube.</Description>
+		<PackageReleaseNotes>Moved the encoder and decoder to a different class.</PackageReleaseNotes>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
+		<FileVersion>1.1.0</FileVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
