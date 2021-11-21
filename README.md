@@ -29,8 +29,8 @@ deserializer for JSON using Newtonsoft.Json.
 
 - .NET Core 5 or later
   - The Library
-  - [Eto.Forms{.PLATFORM}][https://github.com/picoe/Eto]
-    - [GtkSharp][https://github.com/GtkSharp/GtkSharp] for Linux
+  - WPF and WinFroms (Windows Only)
+  - [GtkSharp][https://github.com/GtkSharp/GtkSharp]
 
 ## Setup
 
