@@ -2,21 +2,21 @@
 //
 // SPDX-License-Identifier: BSD-3-Clause
 using Google.Apis.YouTube.v3;
-using LikedVideoLister;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net.Http;
 using System.Threading.Tasks;
+using VideoLister;
 
 namespace TestApp
 {
     /// <summary>
     /// The console application for listing liked videos from YouTube.
     /// </summary>
-    class Program
+    internal class Program
     {
-        static async Task Main()
+        private static async Task Main()
         {
             // Write welcome message and license information
             Console.WriteLine("LikedVideoLister");

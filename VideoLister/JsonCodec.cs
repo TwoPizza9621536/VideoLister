@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 
-namespace LikedVideoLister
+namespace VideoLister
 {
     /// <summary>
     /// A JSON encoder and decoder for a list of videos with a schema.
@@ -41,6 +41,5 @@ namespace LikedVideoLister
             IList<Video> Videos = JsonArray.ToObject<IList<Video>>();
             return Videos;
         }
-
     }
 }

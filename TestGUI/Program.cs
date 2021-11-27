@@ -3,7 +3,7 @@ using System;
 
 namespace TestGUI
 {
-    class Program
+    internal class Program
     {
         [STAThread]
         public static void Main()

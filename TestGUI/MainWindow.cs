@@ -2,9 +2,11 @@ using Gtk;
 
 namespace TestGUI
 {
-    class MainWindow : Window
+    internal class MainWindow : Window
     {
-        public MainWindow() : this(new Builder("MainWindow.glade")) { }
+        public MainWindow() : this(new Builder("MainWindow.glade"))
+        {
+        }
 
         private MainWindow(Builder builder) :
             base(builder.GetRawOwnedObject("MainWindow"))

@@ -1,6 +1,6 @@
-# LikedVideoLister
+# VideoLister
 
-A lister for liked videos from YouTube in .NET C# if you hate the web app or
+A lister for videos from YouTube in .NET C# if you hate the web app or
 mobile app. This is created because there are no plans for the Python version,
 .NET has a better platform support for mobile and C# is a better language to
 work with JSON data than Python with the .NET libraries that is provided.
@@ -16,9 +16,9 @@ deserializer for JSON using Newtonsoft.Json.
 ### The Library
 
 - Google's and YouTube's API and libraries
-  - [Google.Apis.YouTube.v3][https://developers.google.com/youtube/v3/]
-  - [Newtonsoft.Json][https://www.newtonsoft.com/]
-- Also an Internet connection to download the videos
+  - [Google.Apis.YouTube.v3](https://developers.google.com/youtube/v3/)
+  - [Newtonsoft.Json](https://www.newtonsoft.com/)
+- Also an Internet connection to get the videos
 
 ### Console Application (TestApp)
 
@@ -30,7 +30,7 @@ deserializer for JSON using Newtonsoft.Json.
 - .NET Core 5 or later
   - The Library
   - WPF and WinFroms (Windows Only)
-  - [GtkSharp][https://github.com/GtkSharp/GtkSharp]
+  - [GtkSharp](https://github.com/GtkSharp/GtkSharp)
 
 ## Setup
 
