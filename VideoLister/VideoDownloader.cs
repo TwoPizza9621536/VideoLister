@@ -26,8 +26,6 @@ namespace VideoLister
         /// YouTube OAuth 2.0 Credential.
         /// </returns>
 
-        private static bool IsMine { get; set; }
-
         [STAThread]
         public async Task<YouTubeService> GetAuthCredentials()
         {
