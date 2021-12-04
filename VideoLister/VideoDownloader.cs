@@ -42,7 +42,7 @@ namespace VideoLister
                     new[] { YouTubeService.Scope.YoutubeReadonly },
                     "user",
                     CancellationToken.None,
-                    new FileDataStore(this.GetType().ToString()));
+                    new FileDataStore(GetType().ToString()));
             }
 
             YouTubeService youtubeService = new YouTubeService(
@@ -91,49 +91,14 @@ namespace VideoLister
                 {
                     Video VideoItem = new Video
                     {
+                        Id = playlistItem.Snippet.ResourceId.VideoId,
                         Title = playlistItem.Snippet.Title,
-                        Id = playlistItem.Snippet.ResourceId.VideoId
                     };
                     Videos.Add(VideoItem);
                 }
                 nextPageToken = playlistItemsListResponse.NextPageToken;
             }
             return Videos;
-        }
-
-        /// <summary>
-        /// Gets the
-        /// </summary>
-        /// <param name="youtubeService"></param>
-        /// <param name="channelId"></param>
-        /// <returns></returns>
-        public async Task<List<Channel>> GetChannels(
-            YouTubeService youtubeService,
-            string channelId)
-        {
-            List<Channel> Channels = new List<Channel>();
-            ChannelsResource.ListRequest channelsListRequest =
-                youtubeService.Channels.List("contentDetails");
-
-            ChannelListResponse channelsListResponse =
-                await channelsListRequest.ExecuteAsync();
-
-            foreach (Channel channel in channelsListResponse.Items) Channels.Add(channel);
-            return Channels;
-        }
-
-        public static async Task<List<Playlist>> GetPlaylists(
-            YouTubeService youtubeService)
-        {
-            List<Playlist> Playlists = new List<Playlist>();
-            PlaylistsResource.ListRequest playlistListRequest = youtubeService.Playlists.List("snippet");
-            if (IsMine) playlistListRequest.Mine = IsMine;
-            else playlistListRequest. ;
-
-            PlaylistListResponse playlistListResponse = await playlistListRequest.ExecuteAsync();
-
-            foreach (Playlist playlist in playlistListResponse.Items) Playlists.Add(playlist);
-            return Playlists;
         }
     }
 }

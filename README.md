@@ -1,9 +1,7 @@
 # VideoLister
 
-A lister for videos from YouTube in .NET C# if you hate the web app or
-mobile app. This is created because there are no plans for the Python version,
-.NET has a better platform support for mobile and C# is a better language to
-work with JSON data than Python with the .NET libraries that is provided.
+A lister for videos from YouTube in .NET C# if you hate the web app or mobile
+app.
 
 This is the main implementation of the library. There is also a serializer and
 deserializer for JSON using Newtonsoft.Json.

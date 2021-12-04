@@ -1,4 +1,7 @@
-﻿using Newtonsoft.Json;
+﻿// SPDX-FileCopyrightText: Copyright (c) 2021, Samuel Wu
+//
+// SPDX-License-Identifier: BSD-3-Clause
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 

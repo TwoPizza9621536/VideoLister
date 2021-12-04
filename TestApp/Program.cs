@@ -2,6 +2,8 @@
 //
 // SPDX-License-Identifier: BSD-3-Clause
 using Google.Apis.YouTube.v3;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -12,26 +14,16 @@ using VideoLister;
 namespace TestApp
 {
     /// <summary>
-    /// The console application for listing liked videos from YouTube.
+    /// Test application to list videos from YouTube.
     /// </summary>
     internal class Program
     {
         private static async Task Main()
         {
-            // Write welcome message and license information
-            Console.WriteLine("LikedVideoLister");
-            Console.WriteLine("==============================================");
-            Console.WriteLine(
-                "Welcome, this is a program that lists all liked " +
-                "videos from YouTube.\nThis program is licensed under the " +
-                "BSD 3-Clause License.\n\nBy using this program, you" +
-                "automatically agree to the Google's and YouTube's ToS and " +
-                "Privacy Policy.");
+            Console.WriteLine("Video Lister Test Application.");
 
-            // Ask the user if they want to continue
-            Console.Write(
-                "Do you want to use this program, press 'Y' for yes and 'N' " +
-                "for no: ");
+            // Ask the user if they want test the library
+            Console.Write("Do you want to test the library, Y or N: ");
             while (true)
             {
                 ConsoleKey input = Console.ReadKey().Key;
@@ -43,30 +35,25 @@ namespace TestApp
                 Console.Write("Please press 'Y' or 'N': ");
             }
 
-            // Download the video information using the LikedVideosLister
-            // library
+            // Download video information using the LikedVideosLister library
             try
             {
-                Console.WriteLine("\nPlease wait. Downloading videos.\n");
+                Console.WriteLine("\nPlease wait. Downloading videos.");
                 VideoDownloader Downloader = new VideoDownloader();
                 YouTubeService youtubeService =
                     await Downloader.GetAuthCredentials();
                 List<Video> Videos =
-                    await VideoDownloader.GetVideos(youtubeService);
+                    await VideoDownloader.GetVideos(
+                        youtubeService,
+                        "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo");
 
-                Console.WriteLine("     Video Title     |      Video ID      ");
-                Console.WriteLine("==========================================");
+                Console.WriteLine("Writing results to videos.json");
+                JObject EncodedJson = JsonCodec.EncodeJson(Videos);
 
-                for (int I = 0; I < Videos.Count; I++)
+                using (StreamWriter JsonFile = File.CreateText("videos.json"))
+                using (JsonTextWriter Writer = new JsonTextWriter(JsonFile))
                 {
-                    Console.WriteLine("{0} | {1}",
-                        Videos[I].Title,
-                        Videos[I].Id);
-                    if (I % 20 == 0)
-                    {
-                        Console.WriteLine("Press enter to continue...");
-                        while (Console.ReadKey().Key != ConsoleKey.Enter) ;
-                    }
+                    EncodedJson.WriteTo(Writer);
                 }
             }
             catch (FileNotFoundException E)
