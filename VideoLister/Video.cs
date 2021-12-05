@@ -8,7 +8,13 @@ namespace VideoLister
     /// </summary>
     public class Video
     {
-        public string Id { get; set; }
-        public string Title { get; set; }
+        public string Id;
+        public string Title;
+
+        public Video(string VideoTitle, string VideoID)
+        {
+            Title = VideoTitle;
+            Id = VideoID;
+        }
     }
 }

@@ -71,31 +71,28 @@ namespace VideoLister
         {
             List<Video> Videos = new List<Video>();
 
-            // Get the list of liked videos and add it to a list
             string nextPageToken = "";
             while (nextPageToken != null)
             {
-                PlaylistItemsResource.ListRequest playlistItemsListRequest
+                PlaylistItemsResource.ListRequest Request
                     = youtubeService.PlaylistItems.List("snippet");
-                playlistItemsListRequest.PlaylistId = PlayListId;
-                playlistItemsListRequest.MaxResults = 50;
-                playlistItemsListRequest.PageToken = nextPageToken;
+                Request.PlaylistId = PlayListId;
+                Request.MaxResults = 50;
+                Request.PageToken = nextPageToken;
 
-                PlaylistItemListResponse playlistItemsListResponse =
-                    await playlistItemsListRequest.ExecuteAsync();
+                PlaylistItemListResponse Response =
+                    await Request.ExecuteAsync();
 
-                foreach (PlaylistItem playlistItem in
-                    playlistItemsListResponse.Items)
+                foreach (PlaylistItem playlistItem in Response.Items)
                 {
-                    Video VideoItem = new Video
-                    {
-                        Id = playlistItem.Snippet.ResourceId.VideoId,
-                        Title = playlistItem.Snippet.Title,
-                    };
+                    Video VideoItem = new Video(
+                        playlistItem.Snippet.ResourceId.VideoId,
+                        playlistItem.Snippet.Title);
                     Videos.Add(VideoItem);
                 }
-                nextPageToken = playlistItemsListResponse.NextPageToken;
+                nextPageToken = Request.PageToken;
             }
+
             return Videos;
         }
     }
