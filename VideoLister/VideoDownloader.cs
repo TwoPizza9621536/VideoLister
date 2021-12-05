@@ -43,14 +43,11 @@ namespace VideoLister
                     new FileDataStore(GetType().ToString()));
             }
 
-            YouTubeService youtubeService = new YouTubeService(
-                new BaseClientService.Initializer()
+            return YouTubeService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = Credential,
                     ApplicationName = GetType().ToString()
                 });
-
-            return youtubeService;
         }
 
         /// <summary>
