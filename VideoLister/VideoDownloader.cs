@@ -43,7 +43,7 @@ namespace VideoLister
                     new FileDataStore(GetType().ToString()));
             }
 
-            return YouTubeService(new BaseClientService.Initializer()
+            return new YouTubeService(new BaseClientService.Initializer()
                 {
                     HttpClientInitializer = Credential,
                     ApplicationName = GetType().ToString()
