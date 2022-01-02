@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "TestApp\TestApp.csproj", "{487191C9-1974-495D-B7FC-DB013A19B946}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoLister", "VideoLister\VideoLister.csproj", "{5EE54EEA-B098-447C-A74E-9746AB0E3770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoListerLibrary", "VideoLister\VideoListerLibrary.csproj", "{5EE54EEA-B098-447C-A74E-9746AB0E3770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGUI", "TestGUI\TestGUI.csproj", "{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}"
 EndProject

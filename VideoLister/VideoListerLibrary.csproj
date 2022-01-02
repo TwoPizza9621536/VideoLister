@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net5.0;netstandard2.1;netstandard2.0;netcoreapp3.1;netcoreapp2.1;net48;net47;net462</TargetFrameworks>
+		<TargetFrameworks>netstandard2.1;netstandard2.0;netstandard1.4;netstandard1.3</TargetFrameworks>
 		<Authors>Samuel Wu</Authors>
 		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
@@ -12,8 +12,11 @@
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
 		<Description>A lister for liked videos on YouTube.</Description>
-		<PackageReleaseNotes>Now allowing the user use list any vidoes from a playlist.</PackageReleaseNotes>
-		<Version>3.0.0</Version>
+		<PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 	</PropertyGroup>
 
 	<ItemGroup>

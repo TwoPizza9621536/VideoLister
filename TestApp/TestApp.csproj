@@ -13,8 +13,10 @@
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
 		<Description>A test program that goes along with the VideoLister Library.</Description>
-		<PackageReleaseNotes>Rewritten like a test application.</PackageReleaseNotes>
-		<Version>3.0.0</Version>
+		<PackageReleaseNotes>Rewrite VideoListerLibrary.</PackageReleaseNotes>
+		<StartupObject>TestApp.Program</StartupObject>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
 	</PropertyGroup>
 
 
@@ -24,7 +26,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\VideoLister\VideoLister.csproj" />
+		<ProjectReference Include="..\VideoLister\VideoListerLibrary.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
 	</ItemGroup>
 
 </Project>
