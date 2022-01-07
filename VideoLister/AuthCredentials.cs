@@ -12,12 +12,10 @@ using System.Threading.Tasks;
 
 namespace VideoListerLibrary
 {
-    public class AuthenticationCredentials
+    /// <include file='Documentation.xml' path='Namespace/Class[@name="AuthCredentials"]/Member' />
+    public class AuthCredentials
     {
-        /// <summary>
-        /// Gets YouTube credential using OAuth 2.0.
-        /// </summary>
-        /// <exception cref="FileNotFoundException"/>
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="AuthCredentials"]/Method[@name="GetAuthCredentials"]'/>
         [STAThread]
         public async Task<YouTubeService> GetAuthCredentials()
         {
@@ -35,12 +33,11 @@ namespace VideoListerLibrary
                     new FileDataStore(GetType().ToString()));
             }
 
-            return new YouTubeService(
-                new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = Credential,
-                    ApplicationName = GetType().ToString()
-                });
+            return new YouTubeService(new BaseClientService.Initializer()
+            {
+                HttpClientInitializer = Credential,
+                ApplicationName = GetType().ToString()
+            });
         }
     }
 }

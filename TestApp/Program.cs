@@ -5,6 +5,8 @@ using System;
 using System.IO;
 using System.Net.Http;
 using System.Resources;
+using System.Threading.Tasks;
+using VideoListerLibrary;
 
 namespace TestApp
 {
@@ -13,7 +15,7 @@ namespace TestApp
     /// </summary>
     internal class Program
     {
-        private static void Main()
+        private static async Task Main()
         {
             ResourceManager rm =
                 new ResourceManager("TestApp.Properties.en-US",
@@ -34,6 +36,8 @@ namespace TestApp
             try
             {
                 Console.WriteLine(rm.GetString("downloadPrompt"));
+                AuthCredentials credentials = new AuthCredentials();
+                await credentials.GetAuthCredentials();
             }
             catch (FileNotFoundException e)
             {

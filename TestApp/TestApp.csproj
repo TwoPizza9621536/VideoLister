@@ -1,47 +1,47 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
-		<Authors>Samuel Wu</Authors>
-		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
-		<PackageTags>YouTube</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<NeutralLanguage>en-US</NeutralLanguage>
-		<Copyright>Copyright (c) 2021, Samuel Wu</Copyright>
-		<Description>A test program that goes along with the VideoLister Library.</Description>
-		<PackageReleaseNotes>Rewrite VideoListerLibrary.</PackageReleaseNotes>
-		<StartupObject>TestApp.Program</StartupObject>
-		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
-		<EnableNETAnalyzers>True</EnableNETAnalyzers>
-	</PropertyGroup>
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Authors>Samuel Wu</Authors>
+        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
+        <PackageTags>YouTube</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <Copyright>Copyright (c) 2021-2022, Samuel Wu</Copyright>
+        <Description>A test program that goes along with the VideoLister Library.</Description>
+        <PackageReleaseNotes>Rewrite VideoListerLibrary.</PackageReleaseNotes>
+        <StartupObject>TestApp.Program</StartupObject>
+        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+        <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    </PropertyGroup>
 
 
-	<ItemGroup>
-		<None Include="..\README.md" Pack="True" PackagePath="/" />
-		<None Include="..\LICENSE" Pack="True" PackagePath="" />
-	</ItemGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="True" PackagePath="/" />
+        <None Include="..\LICENSE" Pack="True" PackagePath="" />
+    </ItemGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\VideoLister\VideoListerLibrary.csproj" />
-	</ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\VideoLister\VideoListerLibrary.csproj" />
+    </ItemGroup>
 
-	<ItemGroup>
-		<Compile Update="Properties\Resources.Designer.cs">
-			<DesignTime>True</DesignTime>
-			<AutoGen>True</AutoGen>
-			<DependentUpon>Resources.resx</DependentUpon>
-		</Compile>
-	</ItemGroup>
+    <ItemGroup>
+        <Compile Update="Properties\Resources.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
 
-	<ItemGroup>
-		<EmbeddedResource Update="Properties\Resources.resx">
-			<Generator>ResXFileCodeGenerator</Generator>
-			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
-		</EmbeddedResource>
-	</ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Update="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+    </ItemGroup>
 
 </Project>

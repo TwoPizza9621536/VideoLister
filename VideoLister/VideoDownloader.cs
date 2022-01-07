@@ -3,28 +3,70 @@
 // SPDX-License-Identifier: BSD-3-Clause
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace VideoListerLibrary
 {
-    /// <summary>
-    /// Get liked video meta-data using YouTube Data API v3.
-    /// </summary>
+    /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]'/>
     public class VideoDownloader
     {
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Property[@name="PageToken"]'/>
         public static string PageToken { get; set; }
-        public static string PlayListId { set; get; }
 
-        public static async Task<PlaylistItemListResponse>
-            GetPlaylistItemAsync(YouTubeService youtubeService)
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Property[@name="PlayListId"]'/>
+        public static string PlayListId { get; set; }
+
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Property[@name="YoutubeService"]'/>
+        public static YouTubeService YoutubeService { get; set; }
+
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Method[@name="GetPlaylistItemListResponse"]'/>
+        public static async Task<PlaylistItemListResponse> GetPlaylistItemListResponse()
         {
             PlaylistItemsResource.ListRequest request =
-                youtubeService.PlaylistItems.List("snippet");
+                YoutubeService.PlaylistItems.List("snippet");
             request.PlaylistId = PlayListId;
             request.MaxResults = 50;
             request.PageToken = PageToken;
 
             return await request.ExecuteAsync();
+        }
+
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Method[@name="GetPlaylistItemLists"]' />
+        public static async Task<IList<PlaylistItemListResponse>> GetPlaylistItemLists()
+        {
+            IList<PlaylistItemListResponse> playlistLists =
+                new List<PlaylistItemListResponse>();
+            while (PageToken != null)
+            {
+                PlaylistItemListResponse response =
+                    await GetPlaylistItemListResponse();
+                playlistLists.Add(response);
+                PageToken = response.NextPageToken;
+            }
+
+            return playlistLists;
+        }
+
+        /// <include file='Documentation.xml' path='Namespace/Class[@name="VideoDownloader"]/Method[@name="GetVideoList"]'/>
+        public static async Task<IList<Video>> GetVideoList()
+        {
+            IList<Video> videos = new List<Video>();
+            while (PageToken != null)
+            {
+                PlaylistItemListResponse response = await GetPlaylistItemListResponse();
+                IList<PlaylistItem> videoItems = response.Items;
+                foreach (PlaylistItem item in videoItems)
+                {
+                    videos.Add(new Video
+                    {
+                        Title = item.Snippet.Title,
+                        Id = item.Id
+                    });
+                }
+                PageToken = response.NextPageToken;
+            }
+            return videos;
         }
     }
 }
