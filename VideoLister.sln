@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
@@ -35,3 +35,7 @@ Global
 		SolutionGuid = {487191C9-1974-495D-B7FC-DB013A19B946}
 	EndGlobalSection
 EndGlobal
+# Start of SPDX identifier expressions
+# SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+# SPDX-License-Identifier: CC0-1.0
+# End of SPDX identifier expressions

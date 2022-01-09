@@ -1,6 +1,9 @@
-﻿// SPDX-FileCopyrightText: Copyright (c) 2021-2022, Samuel Wu
-//
-// SPDX-License-Identifier: BSD-3-Clause
+﻿/* Start of SPDX identifier expressions
+ * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+ * SPDX-License-Identifier: BSD-3-Clause
+ * End of SPDX identifier expressions
+ */
+
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
@@ -12,10 +15,10 @@ using System.Threading.Tasks;
 
 namespace VideoListerLibrary
 {
-    /// <include file='Documentation.xml' path='Namespace/Class[@name="AuthCredentials"]/Member' />
+    /// <include file='docs/AuthCredentials.xml' path='Namespace/Class[@name="AuthCredentials"]/Member' />
     public class AuthCredentials
     {
-        /// <include file='Documentation.xml' path='Namespace/Class[@name="AuthCredentials"]/Method[@name="GetAuthCredentials"]'/>
+        /// <include file='docs/AuthCredentials.xml' path='Namespace/Class/Method[@name="GetAuthCredentials"]'/>
         [STAThread]
         public async Task<YouTubeService> GetAuthCredentials()
         {

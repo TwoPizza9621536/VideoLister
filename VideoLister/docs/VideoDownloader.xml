@@ -1,43 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Namespace>
-    <Class name="AuthCredentials">
-        <Member>
-            <summary>
-                The credentials needed to get personal play list, e.g liked
-                videos.
-            </summary>
-        </Member>
-        <Method name="GetAuthCredentials">
-            <summary>
-                Asynchronously gets YouTube credential using OAuth 2.0.
-            </summary>
-            <return>
-                <see name="YouTubeService">
-                    The OAuth 2.0 data used to get video meta-data.
-                </see>
-            </return>
-            <exception cref="FileNotFoundException" />
-            <exception cref="HttpRequestException" />
-        </Method>
-    </Class>
-    <Class name="Video">
-        <Member>
-            <summary>
-                A class for YouTube videos.
-            </summary>
-        </Member>
-        <Property name="Id">
-            <summary>
-                The id of the video.
-            </summary>
-        </Property>
-        <Property name="Title">
-            <summary>
-                The title of the video.
-            </summary>
-        </Property>
-    </Class>
-    <Class name="VideoDownloader">
+<!--Start of SPDX identifier expressions
+    SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+    SPDX-License-Identifier: BSD-3-Clause
+    End of SPDX identifier expressions-->
+<Namespace xmlns="http://twopizza9621536.github.io/schema/xml/dotnetxmldoc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://twopizza9621536.github.io/schema/xml/dotnetdoc csharpxmldoc.xsd">
+    <Class>
         <Member>
             <summary>
                 Asynchronously gets video meta-data using YouTube Data API v3.
@@ -85,7 +52,8 @@
                 Recursively download meta-data from a play-list using
                 <see cref="GetPlaylistItemListResponse">
                     GetPlaylistItemListResponse
-                </see>.
+                </see>
+                .
             </summary>
             <returns>A list of videos from a play-list.</returns>
         </Method>

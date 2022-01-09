@@ -1,3 +1,8 @@
+Start of SPDX identifier expressions
+SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+SPDX-License-Identifier: CC0-1.0
+End of SPDX identifier expressions
+
 LikedVideoLibrary
 
 This project requires the following software, dependencies and/or libraries:
@@ -5,7 +10,7 @@ This project requires the following software, dependencies and/or libraries:
 - Google and YouTube API v3: https://developers.google.com/youtube/v3/
 - GtkSharp: https://github.com/GtkSharp/GtkSharp
 
-Begin THIRDPARTYLICENSES.txt
+Begin ThirdPartyLicenses.txt
 
 Google and YouTube API v3
 ================================================================================
@@ -507,4 +512,4 @@ necessary.  Here is a sample; alter the names:
 
 That's all there is to it!
 
-End THIRDPARTYLICENSES.txt
+End ThirdPartyLicenses.txt

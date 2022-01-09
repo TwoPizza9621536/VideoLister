@@ -1,15 +1,18 @@
-﻿// SPDX-FileCopyrightText: Copyright (c) 2021-2022, Samuel Wu
-//
-// SPDX-License-Identifier: BSD-3-Clause
+﻿/* Start of SPDX identifier expressions
+ * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+ * SPDX-License-Identifier: BSD-3-Clause
+ * End of SPDX identifier expressions
+ */
+
 namespace VideoListerLibrary
 {
-    /// <include file='Documentation.xml' path='Namespace/Class[@name="Video"]'/>
+    /// <include file='docs/Video.xml' path='Namespace/Class'/>
     public class Video
     {
-        /// <include file='Documentation.xml' path='Namespace/Class[@name="Video"]/Property[@name="Id"]'/>
+        /// <include file='docs/Video.xml' path='Namespace/Class/Property[@name="Id"]'/>
         public string Id { get; set; }
 
-        /// <include file='Documentation.xml' path='Namespace/Class[@name="Video"]/Property[@name="Title"]'/>
+        /// <include file='docs/Video.xml' path='Namespace/Class/Property[@name="Title"]'/>
         public string Title { get; set; }
     }
 }

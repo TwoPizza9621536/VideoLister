@@ -7,7 +7,7 @@ This is the main implementation of the library.
 
 ## Dependencies
 
-- .NET COre/Framework that is defined in .NET Standard 2 or later
+- .NET Core/Framework that is defined in .NET Standard 2 or later
 - Visual Studio 2019, 2022 or later (Optional)
 
 ### The Library
@@ -51,7 +51,16 @@ Then use `dotnet run` to run the application in the project directory.
 
 ## License
 
-This application is licensed under the BSD 3-Clause License.
+This application is licensed under the BSD 3-Clause License using SPDX License
+Identifiers.
+
+To use them put comments relative at the top in the source file with these exact
+expressions:
+
+```text
+SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+SPDX-License-Identifier: BSD-3-Clause
+```
 
 Additionally you are subjected under Google's and YouTube's ToS and Privacy
 Policy for APIs and Services. The libraries and snippets are under the Apache
