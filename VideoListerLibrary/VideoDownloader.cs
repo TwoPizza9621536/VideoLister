@@ -11,20 +11,35 @@ using System.Threading.Tasks;
 
 namespace VideoListerLibrary
 {
-    /// <include file='docs/VideoDownloader.xml' path='Namespace/Class'/>
+    /// <summary>
+    ///   Asynchronously gets video meta-data using YouTube Data API v3.
+    /// </summary>
     public class VideoDownloader
     {
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Property[@name="PageToken"]'/>
+        /// <summary>
+        ///   The token to get the next set of videos in a play list.
+        /// </summary>
         public static string PageToken { get; set; }
 
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Property[@name="PlayListId"]'/>
+        /// <summary>
+        ///   The play-list that is requested to get videos from.
+        /// </summary>
         public static string PlayListId { get; set; }
 
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Property[@name="YoutubeService"]'/>
+        /// <summary>
+        ///   <see cref="AuthCredentials"/>
+        ///   that is needed to get videos.
+        /// </summary>
         public static YouTubeService YoutubeService { get; set; }
 
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Method[@name="GetPlaylistItemListResponse"]'/>
-        public static async Task<PlaylistItemListResponse> GetPlaylistItemListResponse()
+        /// <summary>
+        ///   Asynchronously download 50 video meta-data at a time as a
+        ///   play-list item list.
+        /// </summary>
+        /// <returns>
+        ///   The meta-data for the 50 videos in the list.
+        /// </returns>
+        public static async Task<PlaylistItemListResponse> GetPlaylist()
         {
             PlaylistItemsResource.ListRequest request =
                 YoutubeService.PlaylistItems.List("snippet");
@@ -35,29 +50,19 @@ namespace VideoListerLibrary
             return await request.ExecuteAsync();
         }
 
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Method[@name="GetPlaylistItemLists"]' />
-        public static async Task<IList<PlaylistItemListResponse>> GetPlaylistItemLists()
-        {
-            IList<PlaylistItemListResponse> playlistLists =
-                new List<PlaylistItemListResponse>();
-            while (PageToken != null)
-            {
-                PlaylistItemListResponse response =
-                    await GetPlaylistItemListResponse();
-                playlistLists.Add(response);
-                PageToken = response.NextPageToken;
-            }
-
-            return playlistLists;
-        }
-
-        /// <include file='docs/VideoDownloader.xml' path='Namespace/Class/Method[@name="GetVideoList"]'/>
+        /// <summary>
+        ///   Recursively download meta-data from a play-list using
+        ///   <see cref="GetPlaylist"/>.
+        /// </summary>
+        /// <returns>
+        ///   A list of videos from a play-list.
+        /// </returns>
         public static async Task<IList<Video>> GetVideoList()
         {
             IList<Video> videos = new List<Video>();
             while (PageToken != null)
             {
-                PlaylistItemListResponse response = await GetPlaylistItemListResponse();
+                PlaylistItemListResponse response = await GetPlaylist();
                 IList<PlaylistItem> videoItems = response.Items;
                 foreach (PlaylistItem item in videoItems)
                 {

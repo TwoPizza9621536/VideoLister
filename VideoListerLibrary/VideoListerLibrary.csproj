@@ -12,7 +12,7 @@
         <PackageTags>YouTube</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Copyright>Copyright (c) 2021-2022, Samuel Wu</Copyright>
+        <Copyright>2021-2022, Samuel Wu</Copyright>
         <Description>A lister for liked videos on YouTube.</Description>
         <PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>

@@ -1,12 +1,7 @@
-/* Start of SPDX Expressions
- * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
- * SPDX-License-Identifier: BSD-3-Clause
- * End of SPDX Expressions
- */
 {
-    "$schema": "https://json.schemastore.org/global.json",
-    "sdk": {
-        "rollForward": "latestMajor",
-        "version": "2.1.30"
-    }
+  "$schema": "https://json.schemastore.org/global.json",
+  "sdk": {
+    "rollForward": "latestMajor",
+    "version": "2.1.30"
+  }
 }

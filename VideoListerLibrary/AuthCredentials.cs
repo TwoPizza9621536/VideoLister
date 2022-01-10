@@ -15,10 +15,22 @@ using System.Threading.Tasks;
 
 namespace VideoListerLibrary
 {
-    /// <include file='docs/AuthCredentials.xml' path='Namespace/Class[@name="AuthCredentials"]/Member' />
+    /// <summary>
+    /// The credentials needed to get personal play list, e.g liked videos.
+    /// </summary>
     public class AuthCredentials
     {
-        /// <include file='docs/AuthCredentials.xml' path='Namespace/Class/Method[@name="GetAuthCredentials"]'/>
+        /// <summary>
+        ///   Asynchronously gets YouTube credential using OAuth 2.0.
+        /// </summary>
+        /// <returns>
+        ///   <para>
+        ///     The OAuth 2.0 and
+        ///     <see cref="YouTubeService"/>
+        ///     used to get video meta-data.
+        ///   </para>
+        /// </returns>
+        /// <exception cref = "FileNotFoundException"/>
         [STAThread]
         public async Task<YouTubeService> GetAuthCredentials()
         {

@@ -66,7 +66,7 @@ Additionally you are subjected under Google's and YouTube's ToS and Privacy
 Policy for APIs and Services. The libraries and snippets are under the Apache
 Version 2.0 license.
 
-GtkSharp is under the LGPLv2 license.
+GtkSharp is under the LGPLv2+ license.
 
 See the `LICENSE` file for the license and `ThirdPartyLicenses.txt` for third
 party software, dependences and/or libraries.

@@ -8,6 +8,7 @@ using System;
 using System.IO;
 using System.Net.Http;
 using System.Resources;
+using System.Text.Json;
 using System.Threading.Tasks;
 using VideoListerLibrary;
 
@@ -20,40 +21,21 @@ namespace TestApp
     {
         private static async Task Main()
         {
-            ResourceManager rm =
-                new ResourceManager("TestApp.Properties.en-US",
-                                    typeof(Program).Assembly);
-            Console.Write(rm.GetString("Title"));
-            Console.Write(rm.GetString("Prompt"));
-            while (true)
+            AuthCredentials credentials = new AuthCredentials();
+            VideoDownloader.YoutubeService = await credentials.GetAuthCredentials();
+            VideoDownloader.PlayListId = "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo";
+            var result = await VideoDownloader.GetPlaylistItemListResponse();
+            var options = new JsonSerializerOptions
             {
-                ConsoleKey input = Console.ReadKey().Key;
-                if (input == ConsoleKey.N)
-                    Environment.Exit(1);
-                else if (input == ConsoleKey.Y)
-                    break;
-                Console.WriteLine();
-                Console.Write(rm.GetString("continuePrompt"));
-            }
-
-            try
+                WriteIndented = true,
+                MaxDepth = 64,
+                AllowTrailingCommas = false
+            };
+            string json = JsonSerializer.Serialize(result, options);
+            using (StreamWriter writer = new StreamWriter("result.json"))
             {
-                Console.WriteLine(rm.GetString("downloadPrompt"));
-                AuthCredentials credentials = new AuthCredentials();
-                await credentials.GetAuthCredentials();
+                writer.WriteLine(json.ToString());
             }
-            catch (FileNotFoundException e)
-            {
-                Console.WriteLine(rm.GetString("fileNotFound"));
-                Console.WriteLine(e.Message);
-            }
-            catch (HttpRequestException e)
-            {
-                Console.WriteLine(rm.GetString("noInternetConnection"));
-                Console.WriteLine(e.Message);
-            }
-            Console.WriteLine(rm.GetString("exitPrompt"));
-            Console.ReadKey();
         }
     }
 }
