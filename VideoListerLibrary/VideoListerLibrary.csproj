@@ -6,22 +6,22 @@ End of SPDX identifier expressions
 -->
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFrameworks>netstandard2.1;netstandard2.0;netstandard1.4;netstandard1.3</TargetFrameworks>
         <Authors>Samuel Wu</Authors>
-        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
         <PackageTags>YouTube</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Copyright>Copyright (c) 2021-2022, Samuel Wu</Copyright>
-        <Description>A test program that goes along with the VideoLister Library.</Description>
-        <PackageReleaseNotes>Rewrite VideoListerLibrary.</PackageReleaseNotes>
-        <StartupObject>TestApp.Program</StartupObject>
+        <Copyright>2021-2022, Samuel Wu</Copyright>
+        <Description>A lister for liked videos on YouTube.</Description>
+        <PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
         <EnableNETAnalyzers>True</EnableNETAnalyzers>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
@@ -31,13 +31,7 @@ End of SPDX identifier expressions
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="../VideoListerLibrary/VideoListerLibrary.csproj" />
+        <PackageReference Include="Google.Apis.YouTube.v3" Version="1.55.0.2449" />
     </ItemGroup>
 
-    <ItemGroup>
-        <EmbeddedResource Update="Properties\Resources.resx">
-            <Generator>ResXFileCodeGenerator</Generator>
-            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-        </EmbeddedResource>
-    </ItemGroup>
 </Project>

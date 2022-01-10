@@ -1,0 +1,2801 @@
+{
+  "ETag": "0-xSO51Z_e-2G5h5DnEVWzzujAg",
+  "EventId": null,
+  "Items": [
+    {
+      "ContentDetails": null,
+      "ETag": "1MewP4WivOze-AockNvOHoE4UQ0",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41NkI0NEY2RDEwNTU3Q0M2",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Dinosauri bisesti dalle voci funeste. Original title: \u0022I dinosauri antropomorfi hanno il sangue nel ritmo\u0022 (literally \u0022The anthropomorphic dinosaurs have blood in their rhythm\u0022), as opposite to http://youtu.be/e6MLjaKhp5U\nIf you are that \u0022wtf this is so funny i want to know shit\u0022-type of person, here\u0027s some info/faq:\n- original cartoon: https://youtu.be/brLqiYj5lQw\n- original song: http://youtu.be/v_XJIsDJgXc?t=4m1s (at 4:01)\n- original yee: https://youtu.be/hCKQP9IHHcA\n- \u0022is this a remix?\u0022 sort of. i arranged the dinos so that they would sing along with the music and that\u0027s it\n- \u0022why does the dino say yee?\u0022 in the original footage he was calling the other dinosaur by name (\u0022Peek\u0022)\n- \u0022fuck everything! i went through the whole movie and there was no yee sound! i hate my life\u0022 dude, yee is only in the italian version of the movie, ciao ciao pizza ferrari\n- \u0022is the italian dub as atrocious as the english one?\u0022 you bet\n- \u0022why did you make this video?\u0022 i was trying to make a burrito out of your stupid questions and this happened\n- \u0022how did this become so popular?\u0022 illuminati",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 0,
+        "PublishedAtRaw": "2017-08-13T00:19:12Z",
+        "PublishedAt": "2017-08-12T20:19:12-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "q6EoRBvdVPQ",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/q6EoRBvdVPQ/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/q6EoRBvdVPQ/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/q6EoRBvdVPQ/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Yee",
+        "VideoOwnerChannelId": "UC-fD_qwTEQQ1L-MUWx_mNvg",
+        "VideoOwnerChannelTitle": "revergo",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "rC1aBhWXZMpTSytkKi4mCv_hB1k",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4yODlGNEE0NkRGMEEzMEQy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Instagram: @jimmynez",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 1,
+        "PublishedAtRaw": "2017-08-13T00:20:32Z",
+        "PublishedAt": "2017-08-12T20:20:32-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "8YWl7tDGUPA",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/8YWl7tDGUPA/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/8YWl7tDGUPA/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/8YWl7tDGUPA/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "color red",
+        "VideoOwnerChannelId": "UCbYMTn6xKV0IKshL4pRCV3g",
+        "VideoOwnerChannelTitle": "Alex Jimenez",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "emy08nZD-eoOY38PpO8w9o5Y5Cw",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4wMTcyMDhGQUE4NTIzM0Y5",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Now that\u0027s a catchy tune!",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 2,
+        "PublishedAtRaw": "2017-08-13T00:20:39Z",
+        "PublishedAt": "2017-08-12T20:20:39-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "6bnanI9jXps",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/6bnanI9jXps/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/6bnanI9jXps/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/6bnanI9jXps/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/6bnanI9jXps/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Terrible Mall Commercial",
+        "VideoOwnerChannelId": "UCLmnB20wsih9F5N0o5K0tig",
+        "VideoOwnerChannelTitle": "quantim",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "Ro9klSD3a_Qy3VnaIxy7Ox2TZwQ",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5CNEM0MzBCNDY3RkU1NUMw",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 3,
+        "PublishedAtRaw": "2020-05-09T23:14:03Z",
+        "PublishedAt": "2020-05-09T19:14:03-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "IOzaT_uTNiU",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/IOzaT_uTNiU/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/IOzaT_uTNiU/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/IOzaT_uTNiU/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/IOzaT_uTNiU/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/IOzaT_uTNiU/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "[HD] Sandra Annenberg Cai Ao Vivo no Programa Como Ser\u00E1",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "Quqv77FVvq-zUk3V4BjAIlaIe5w",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4wOTA3OTZBNzVEMTUzOTMy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 4,
+        "PublishedAtRaw": "2017-08-13T00:20:53Z",
+        "PublishedAt": "2017-08-12T20:20:53-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "SBeYzoQPbu8",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/SBeYzoQPbu8/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/SBeYzoQPbu8/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/SBeYzoQPbu8/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "name a yellow fruit",
+        "VideoOwnerChannelId": "UCkRDJpXb96HrsdDSF8AwysA",
+        "VideoOwnerChannelTitle": "DaRkMaGiCiAn5009",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "lC4_bnOS2g652mClOqKuNT0Y6wU",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4xMkVGQjNCMUM1N0RFNEUx",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "This edit was featured on Tosh.0 somehow, clip from: JStuStudios.\nOriginal video: https://www.youtube.com/watch?v=Syd5JuAoyuo\nI make no money on my videos, it\u0027s just for fun.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 5,
+        "PublishedAtRaw": "2017-08-13T00:20:59Z",
+        "PublishedAt": "2017-08-12T20:20:59-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "ixQkcuZhXg8",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/ixQkcuZhXg8/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/ixQkcuZhXg8/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/ixQkcuZhXg8/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/ixQkcuZhXg8/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/ixQkcuZhXg8/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "The moment an old lady questions her own sanity",
+        "VideoOwnerChannelId": "UCVsKh1uG6_T0o8nYrtmqmyA",
+        "VideoOwnerChannelTitle": "Marcuskb92",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "7k_NWwPkFGbEhmuyyaGpZNCPHnI",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41MzJCQjBCNDIyRkJDN0VD",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Buy important playlist shirts: https://www.redbubble.com/people/moonaholic/portfolio/",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 6,
+        "PublishedAtRaw": "2017-08-13T00:21:05Z",
+        "PublishedAt": "2017-08-12T20:21:05-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "EWF8Nfm-LLk",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/EWF8Nfm-LLk/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/EWF8Nfm-LLk/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/EWF8Nfm-LLk/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/EWF8Nfm-LLk/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/EWF8Nfm-LLk/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "How It Feels To Chew 5 Gum",
+        "VideoOwnerChannelId": "UCzo3uFuIpcilqHoqz_X1Z0A",
+        "VideoOwnerChannelTitle": "\u5F61kawaiigaythug",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "0RrRMpdlfaoZKv1e_Yr3JIKkvZM",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DOTNDNjAwMzFFNUY5NzYy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 7,
+        "PublishedAtRaw": "2019-11-05T19:05:54Z",
+        "PublishedAt": "2019-11-05T14:05:54-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "91UczWPzMjg",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/91UczWPzMjg/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/91UczWPzMjg/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/91UczWPzMjg/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/91UczWPzMjg/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Hollaback Seinfeld",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "veQMOgvk0JN2CazQYPhsl3j_gAM",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby44Rjc3MDE3QTkyQ0YyOEIx",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 8,
+        "PublishedAtRaw": "2021-02-01T04:37:11Z",
+        "PublishedAt": "2021-01-31T23:37:11-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "Pvqb5aSDfrE",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/Pvqb5aSDfrE/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/Pvqb5aSDfrE/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/Pvqb5aSDfrE/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/Pvqb5aSDfrE/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/Pvqb5aSDfrE/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Nate\u0027s Firepole Fail",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "228NNlnF2fXOJkARFFSiqte4Gt0",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5GNjNDRDREMDQxOThCMDQ2",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "A song by Andyee Williams.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 9,
+        "PublishedAtRaw": "2017-08-13T00:21:24Z",
+        "PublishedAt": "2017-08-12T20:21:24-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "v3i8vsIUA7Q",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/v3i8vsIUA7Q/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/v3i8vsIUA7Q/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/v3i8vsIUA7Q/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/v3i8vsIUA7Q/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/v3i8vsIUA7Q/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "It\u0027s The Most Wonderful Time Of The Yee",
+        "VideoOwnerChannelId": "UCQxikUMRI0bpKuehv3RrVZg",
+        "VideoOwnerChannelTitle": "BaronVonRhodes",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "zE3bjZGaVddHjN6nvzxJvyEYA3M",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby40NzZCMERDMjVEN0RFRThB",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Guy takes video instead of picture. Found this on Facebook! :D",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 10,
+        "PublishedAtRaw": "2017-08-13T00:21:30Z",
+        "PublishedAt": "2017-08-12T20:21:30-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "0r--lCyPjRY",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/0r--lCyPjRY/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/0r--lCyPjRY/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/0r--lCyPjRY/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Guy takes video instead of picture.",
+        "VideoOwnerChannelId": "UCT3z8M69VC8ikWVOlAPnIsw",
+        "VideoOwnerChannelTitle": "missaussiedoggify",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "asjU0CoxvhY4qCup52U89zyvgxo",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5EMEEwRUY5M0RDRTU3NDJC",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Me and a few friends gather all the drums in our school, retuned them, and produced this little clip. We got the original idea from the movie \u0022School of Rock\u0022 and thought it was only appropriate we ended with the actual theme song.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 11,
+        "PublishedAtRaw": "2017-08-13T00:21:37Z",
+        "PublishedAt": "2017-08-12T20:21:37-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "VV5JOQyUYNg",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/VV5JOQyUYNg/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/VV5JOQyUYNg/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/VV5JOQyUYNg/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/VV5JOQyUYNg/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/VV5JOQyUYNg/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "School of Rock Hawaii 5-0 Drum Fill",
+        "VideoOwnerChannelId": "UCKD2LojXiv2GQt3rliReWcA",
+        "VideoOwnerChannelTitle": "SamWegProductions",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "CtW2bMbxsNauiWNghLyjisDGsyc",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby45ODRDNTg0QjA4NkFBNkQy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "If you liked this video and content on this channel please send a tip on Venmo @thriftymedia \nMike Massey shows you how not to dog a shot",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 12,
+        "PublishedAtRaw": "2017-08-13T00:21:42Z",
+        "PublishedAt": "2017-08-12T20:21:42-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "b3sOOBicyDY",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/b3sOOBicyDY/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/b3sOOBicyDY/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/b3sOOBicyDY/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/b3sOOBicyDY/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Trick Shot",
+        "VideoOwnerChannelId": "UC7oTUmEeuU35R3CSn3pnByw",
+        "VideoOwnerChannelTitle": "Thrifty Video Network",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "wYT28SGgUWDVAiZBGcdtGglJB2E",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4zMDg5MkQ5MEVDMEM1NTg2",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 13,
+        "PublishedAtRaw": "2017-08-13T00:21:48Z",
+        "PublishedAt": "2017-08-12T20:21:48-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "zMtj4yJKuzk",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/zMtj4yJKuzk/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/zMtj4yJKuzk/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/zMtj4yJKuzk/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Kiss",
+        "VideoOwnerChannelId": "UCpjO_EmL6zneeRCMSebhWNQ",
+        "VideoOwnerChannelTitle": "Isaac",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "kQfyWc4qsyPcohZWqWOrcWn-AWY",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41Mzk2QTAxMTkzNDk4MDhF",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "I just had to edit this, it needed to be done.\nOriginal clip is here: https://www.youtube.com/watch?v=Ba25S_AqGRo",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 14,
+        "PublishedAtRaw": "2017-08-13T00:21:54Z",
+        "PublishedAt": "2017-08-12T20:21:54-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "GzgavGowD_A",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/GzgavGowD_A/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/GzgavGowD_A/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/GzgavGowD_A/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/GzgavGowD_A/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/GzgavGowD_A/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Flutterbye fairy toy flies into fire O\u0027Fortuna",
+        "VideoOwnerChannelId": "UCOryZHXFXQZGuPLB5fbXl8g",
+        "VideoOwnerChannelTitle": "Animetist",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "tkJoHlPdGU7L_6Pd5Bc6_bj5xUo",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5EQUE1NTFDRjcwMDg0NEMz",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 15,
+        "PublishedAtRaw": "2017-08-13T00:21:59Z",
+        "PublishedAt": "2017-08-12T20:21:59-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "5lL5xRKquPQ",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/5lL5xRKquPQ/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/5lL5xRKquPQ/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/5lL5xRKquPQ/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "burp helium (so funny)",
+        "VideoOwnerChannelId": "UC8QTIBpcNL2YMpozN56TOZA",
+        "VideoOwnerChannelTitle": "Pawel Kowalski",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "CwkvnCCVAGuCLtsZ6ERh_qh0UcA",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby43QzAwQzY2Q0M0MTU1QkIz",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "If anyone takes offense to this video, then go take a long walk off of a short pier!\n\n\nI don\u0027t own this. People say it was from the \u0022important videos\u0022 playlist number 17 so I uploaded it back on the site. Enjoy.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 16,
+        "PublishedAtRaw": "2017-09-02T13:50:31Z",
+        "PublishedAt": "2017-09-02T09:50:31-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "rEhxPhVQdYE",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/rEhxPhVQdYE/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/rEhxPhVQdYE/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/rEhxPhVQdYE/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "You schleep bro   yeeeaaaah  he schleep  [REUPLOADED]",
+        "VideoOwnerChannelId": "UCZrGIGnODWmNQ58twEPSzKA",
+        "VideoOwnerChannelTitle": "John Doe",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "hyM9pPQVXiDhskelf3dt0biy2Q8",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4yMUQyQTQzMjRDNzMyQTMy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "If you enjoy this video, turn up to 11. and click this http://www.youtube.com/watch?v=ANZwa6La-AU  or (if you\u0027re 30\u002B) this  http://www.youtube.com/watch?v=6OnYa2Gt0CY",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 17,
+        "PublishedAtRaw": "2017-08-13T00:22:19Z",
+        "PublishedAt": "2017-08-12T20:22:19-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "PaFnO5LKTSs",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/PaFnO5LKTSs/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/PaFnO5LKTSs/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/PaFnO5LKTSs/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Spiderman",
+        "VideoOwnerChannelId": "UCn3V59oMyQ1uqE7yCC2P7Cw",
+        "VideoOwnerChannelTitle": "czarnaowca81",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "Fx5tBfq0vnF3N60QPqrKKksoyGQ",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5FMTRBMDgyN0ZFQjY4Mzkw",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 18,
+        "PublishedAtRaw": "2019-11-05T19:06:00Z",
+        "PublishedAt": "2019-11-05T14:06:00-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "lBKGeYILzaM",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/lBKGeYILzaM/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/lBKGeYILzaM/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/lBKGeYILzaM/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "My Cat is Crazy",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "iVkmQ_nWmTj_UYM1Eq1wCbqJhZ8",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5ENDU4Q0M4RDExNzM1Mjcy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 19,
+        "PublishedAtRaw": "2017-08-13T00:22:35Z",
+        "PublishedAt": "2017-08-12T20:22:35-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "MwBxDnL4PZE",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/MwBxDnL4PZE/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/MwBxDnL4PZE/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/MwBxDnL4PZE/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/MwBxDnL4PZE/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/MwBxDnL4PZE/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "ajrojrojro",
+        "VideoOwnerChannelId": "UCGZFczYnh4DAw-DKwFYutJA",
+        "VideoOwnerChannelTitle": "oh nononono",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "XuMcQiNBS337kdjI_yvUxlE3oOU",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4yMDhBMkNBNjRDMjQxQTg1",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Reuploaded since my main channel is terminated now\n\nFood of the Gods 2\nThe Whore Church",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 20,
+        "PublishedAtRaw": "2017-08-13T00:22:43Z",
+        "PublishedAt": "2017-08-12T20:22:43-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "rtChPB6NjJY",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/rtChPB6NjJY/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/rtChPB6NjJY/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/rtChPB6NjJY/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/rtChPB6NjJY/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/rtChPB6NjJY/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Bobby",
+        "VideoOwnerChannelId": "UC0y5JVZGimFFdFKss2Q8q_g",
+        "VideoOwnerChannelTitle": "LIPZXNFVCX",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "vUbBF7uQjbhHQOmrHXH6qOf9_i8",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5GM0Q3M0MzMzY5NTJFNTdE",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "A reddit user said that Seth Rogen\u0027s Laugh was like the Cantina song from Star Wars, so I made this. I\u0027m sorry.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 21,
+        "PublishedAtRaw": "2017-08-13T00:22:49Z",
+        "PublishedAt": "2017-08-12T20:22:49-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "KhpRFURlwJI",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/KhpRFURlwJI/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/KhpRFURlwJI/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/KhpRFURlwJI/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/KhpRFURlwJI/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/KhpRFURlwJI/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Seth Rogen Laugh \u002B Cantina Song = Nightmares",
+        "VideoOwnerChannelId": "UCiBEKLJeZrTxbsdPTcAHFQA",
+        "VideoOwnerChannelTitle": "1UpBox",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "RRBy-RPl1Pw2JHG5bwDyMY1oQT4",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4zRjM0MkVCRTg0MkYyQTM0",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "how to light a firecracker.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 22,
+        "PublishedAtRaw": "2017-08-13T00:22:55Z",
+        "PublishedAt": "2017-08-12T20:22:55-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "-1KBowkgk3Q",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/-1KBowkgk3Q/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/-1KBowkgk3Q/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/-1KBowkgk3Q/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "How to light a firecracker",
+        "VideoOwnerChannelId": "UC4VX981NZkAmwneVPEEqpqA",
+        "VideoOwnerChannelTitle": "Matthew Bartel",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "LP7CfRhJgN_xv6whjABJEfvUgts",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby45NzUwQkI1M0UxNThBMkU0",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "https://www.facebook.com/yawfaso/videos/628066684055085/?pnref=story",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 23,
+        "PublishedAtRaw": "2017-08-13T00:23:01Z",
+        "PublishedAt": "2017-08-12T20:23:01-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "6s2iwMFZk_Q",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/6s2iwMFZk_Q/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/6s2iwMFZk_Q/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/6s2iwMFZk_Q/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "moshfit",
+        "VideoOwnerChannelId": "UCCW_uFm87bp0Al6C_Md4-7A",
+        "VideoOwnerChannelTitle": "stanley footykicker",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "7LPRY1jRyjCs1R3450dM6CvyfOg",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DNzE1RjZEMUZCMjA0RDBB",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Y2J proves again that he is Best In The World .. when an idiot stupid hypocrite and jackass fan yalls \u0027Go Back To Toronto\u0027 Chris Jericho owns hin with \u0027I\u0027m from Winnipeg You Idiot!\u0027 !!",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 24,
+        "PublishedAtRaw": "2017-08-13T00:23:07Z",
+        "PublishedAt": "2017-08-12T20:23:07-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "o77NwC2TLR8",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/o77NwC2TLR8/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/o77NwC2TLR8/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/o77NwC2TLR8/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "I\u0027m from Winnipeg You Idiot! Jericho Owns the World !!",
+        "VideoOwnerChannelId": "UCrnxCfHHnK7k8Fm58-jmhzQ",
+        "VideoOwnerChannelTitle": "Y2JGFX",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "RDak9vGh11iM9ArL1BTyhzYijb0",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby43MTI1NDIwOTMwQjIxMzNG",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Scott Steiner gives us a math lesson. The numbers don\u0027t lie, and he WILL beat Samoa Joe!\n\n10 years later and I\u2019m getting ripped off by ESPN. \uD83D\uDE02\n\nhttps://twitter.com/espnnfl/status/1350626984221679622?s=21",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 25,
+        "PublishedAtRaw": "2017-08-13T00:23:13Z",
+        "PublishedAt": "2017-08-12T20:23:13-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "WFoC3TR5rzI",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/WFoC3TR5rzI/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/WFoC3TR5rzI/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/WFoC3TR5rzI/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/WFoC3TR5rzI/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/WFoC3TR5rzI/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Professor Scott Steiner Typography",
+        "VideoOwnerChannelId": "UC8x4utiUujRgGBAiUUSfAAA",
+        "VideoOwnerChannelTitle": "AJ Minotti",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "kLoDf8ZbP3yMa2afq_HA8P0Ny1c",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DQ0MyQ0Y4Mzg0M0VGOEYw",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Fun for the whole family.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 26,
+        "PublishedAtRaw": "2017-08-13T00:23:19Z",
+        "PublishedAt": "2017-08-12T20:23:19-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "AZdgxWV4SgU",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/AZdgxWV4SgU/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/AZdgxWV4SgU/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/AZdgxWV4SgU/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "HERE I COME I AM CINNAMON",
+        "VideoOwnerChannelId": "UCKvqcPdQZ_8bqemT2hcrNQw",
+        "VideoOwnerChannelTitle": "JakeTripplJ",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "8dtZEa4IIG4eh2S3k_Vq5R3UkBI",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41ODEzODFCRDIzQURGRjU5",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 27,
+        "PublishedAtRaw": "2019-11-05T19:06:05Z",
+        "PublishedAt": "2019-11-05T14:06:05-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "mO-ZZxhlY_Q",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/mO-ZZxhlY_Q/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/mO-ZZxhlY_Q/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/mO-ZZxhlY_Q/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/mO-ZZxhlY_Q/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/mO-ZZxhlY_Q/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "\u041D\u0435 \u0433\u043B\u0430\u0434\u044C \u043C\u0435\u043D\u044F! Don\u0027t touch me",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "jC5O_aHFqmC2r8L1Ska5oPKQf4s",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DMkU4NTY1QUFGQTYwMDE3",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Jukin Media Verified (Original)\n* For licensing / permission to use: Contact - licensing(at)jukinmediadotcom\n\nFollow me on Instagram - dillenj \nHope you guys enjoy! Going to be doing a lot of these funny edits and stuff I hope you guys like it. Oh and yeah I am the ginger.  \nMy cousin is the one filming : http://www.youtube.com/akzeeee\nBand is: Of Mice \u0026 Men - OG Loco.\nI do not claim ownership of the music in this video!",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 28,
+        "PublishedAtRaw": "2017-08-13T00:23:32Z",
+        "PublishedAt": "2017-08-12T20:23:32-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "7rQhBlTkvt4",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/7rQhBlTkvt4/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/7rQhBlTkvt4/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/7rQhBlTkvt4/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/7rQhBlTkvt4/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/7rQhBlTkvt4/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "GoPro Test / Welcome To My Channel",
+        "VideoOwnerChannelId": "UCFs8fN8xxaZrsYBZq5D-EMA",
+        "VideoOwnerChannelTitle": "James",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "-M2ePvow-yv2WuVga8pbhzv6tnY",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby44Mjc5REFBRUE2MTdFRDU0",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "its crappy but had worked!\nhope you liked\nthumbs up!",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 29,
+        "PublishedAtRaw": "2017-08-13T00:23:37Z",
+        "PublishedAt": "2017-08-12T20:23:37-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "wtUMQZqI3x0",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/wtUMQZqI3x0/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/wtUMQZqI3x0/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/wtUMQZqI3x0/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Chroma Key test",
+        "VideoOwnerChannelId": "UCNdfq0MWhOH3QafT38NGsdw",
+        "VideoOwnerChannelTitle": "jorjeca",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "_vH2-SoL8fOcHd2-CzmmaUoAEuU",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby43NDhFRTgwOTRERTU4Rjg3",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "High five of the nuts in slow motion.\n\nTo use this video in a commercial player or in broadcasts, please email licensing@storyful.com.\n\nFollow me on Instagram @thecreativitywizard\nLike us on FB @therisingdawnsanctuary",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 30,
+        "PublishedAtRaw": "2017-08-13T00:23:43Z",
+        "PublishedAt": "2017-08-12T20:23:43-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "a4uFJMNSthE",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/a4uFJMNSthE/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/a4uFJMNSthE/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/a4uFJMNSthE/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/a4uFJMNSthE/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/a4uFJMNSthE/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Flying nut high five",
+        "VideoOwnerChannelId": "UC7LNQQzL1rt7Ltjr8e5p7_Q",
+        "VideoOwnerChannelTitle": "JotePrakash Singh AKA TheCreativityWizard",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "0oDCykA6Zo5bOGf7v92Q5jG4268",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41QUZGQTY5OTE4QTREQUU4",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Better dead than, um, purple?...\n\nOriginal (RE-REUPLOAD) - https://m.youtube.com/watch?v=U4xv1IaoB1g",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 31,
+        "PublishedAtRaw": "2017-08-13T00:23:49Z",
+        "PublishedAt": "2017-08-12T20:23:49-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "AZYErjxUqyE",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/AZYErjxUqyE/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/AZYErjxUqyE/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/AZYErjxUqyE/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Barney Meets His Maker",
+        "VideoOwnerChannelId": "UCHAMNptMC4QKnT5-Sjy5Y_g",
+        "VideoOwnerChannelTitle": "XScourgeTailsX",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "60Zc_Ewd4PML0ftVnlu0Z3ZK-v4",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4zRDBDOEZDOUM0MDY5NEEz",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Eric Andre shames a false prophet.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 32,
+        "PublishedAtRaw": "2017-08-13T00:23:54Z",
+        "PublishedAt": "2017-08-12T20:23:54-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "3j9XNhrwVtY",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/3j9XNhrwVtY/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/3j9XNhrwVtY/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/3j9XNhrwVtY/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/3j9XNhrwVtY/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/3j9XNhrwVtY/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Turn that Poop into Wine",
+        "VideoOwnerChannelId": "UCq3EL2Z-8vIyDxz7L7fvjBQ",
+        "VideoOwnerChannelTitle": "sclerine",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "BCTzoAT8_YNzK6mU9VeCbNdbXl8",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby43ODUxQUQzOEI2RDEwM0FG",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 33,
+        "PublishedAtRaw": "2019-11-05T19:06:10Z",
+        "PublishedAt": "2019-11-05T14:06:10-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "raquI7epZbg",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/raquI7epZbg/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/raquI7epZbg/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/raquI7epZbg/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/raquI7epZbg/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/raquI7epZbg/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Wow a Yard Sale!",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "_W63BA_kC_6m8The6NLfNhM86tA",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby42MTI4Njc2QjM1RjU1MjlG",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "\u041C\u044B \u0434\u043E\u043B\u0436\u043D\u044B \u043D\u0430\u0439\u0442\u0438 \u043F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u0443!",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 34,
+        "PublishedAtRaw": "2017-08-13T00:24:12Z",
+        "PublishedAt": "2017-08-12T20:24:12-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "yr_Rpk9HR1g",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/yr_Rpk9HR1g/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/yr_Rpk9HR1g/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/yr_Rpk9HR1g/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/yr_Rpk9HR1g/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/yr_Rpk9HR1g/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Super \u041C\u0430\u0440\u0438\u043E Brothers",
+        "VideoOwnerChannelId": "UCrnqBCaGjEdgrpIww6XHnBA",
+        "VideoOwnerChannelTitle": "rawrderder",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "Bq8PfagyhQ34fqis4AAJgp-lPu8",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby45RjNFMDhGQ0Q2RkFCQTc1",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Song: OG Maco - 12 Bricks\n\nAll credit goes to @youfunnyb",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 35,
+        "PublishedAtRaw": "2017-08-13T00:24:17Z",
+        "PublishedAt": "2017-08-12T20:24:17-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "jQmlVEBQYig",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/jQmlVEBQYig/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/jQmlVEBQYig/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/jQmlVEBQYig/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/jQmlVEBQYig/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/jQmlVEBQYig/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "I Just Found 12 Bricks",
+        "VideoOwnerChannelId": "UCKe85i8nBlraXg3UmqbcnoQ",
+        "VideoOwnerChannelTitle": "Tommy Jegier",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "hV5soGY55zrsjKy_Hx6DfSCs7Hg",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4wRUM0NDVEMzZDODkxRUQ3",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 36,
+        "PublishedAtRaw": "2018-07-25T15:21:36Z",
+        "PublishedAt": "2018-07-25T11:21:36-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "7pZ7Kj00wJ4",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/7pZ7Kj00wJ4/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/7pZ7Kj00wJ4/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/7pZ7Kj00wJ4/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Kimchi slap",
+        "VideoOwnerChannelId": "UCFO_byT0kVDpY0fEXlRf3Iw",
+        "VideoOwnerChannelTitle": "VHS",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "S3_IsoejumHhXTzlCnYvU0mH-_Q",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5BRjJDODk5REM0NjkzMUIy",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "\uBE75\uD130\uC9C0\uB294 \uC720\uBA38, \uACF5\uAC10, \uC815\uBCF4 \uC790\uB8CC \uBC1B\uC544\uBCF4\uB824\uBA74 \n\uCE74\uCE74\uC624\uC2A4\uD1A0\uB9AC \u0022\uC2DC\uD130\uCE74\uD398\u0022 \uC18C\uC2DD\uBC1B\uAE30 \nhttp://tinyurl.com/sittercafe",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 37,
+        "PublishedAtRaw": "2017-08-13T00:24:29Z",
+        "PublishedAt": "2017-08-12T20:24:29-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "Q8qk6XiARrg",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/Q8qk6XiARrg/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/Q8qk6XiARrg/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/Q8qk6XiARrg/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "\uB4DC\uB77C\uB9C8 \uB808\uC804\uB4DC\uAE09 \uBB34\uB9AC\uC218\u314B\u314B\u314B",
+        "VideoOwnerChannelId": "UC-4i5hKIXMOTGO8wVDSAXVw",
+        "VideoOwnerChannelTitle": "\uC2DC\uD130\uCE74\uD398",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "E9WqmVKL_HPMVALJ2jfYcAFRcBk",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4xOTEzQzhBQzU3MDNDNjcz",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 38,
+        "PublishedAtRaw": "2017-08-13T00:24:33Z",
+        "PublishedAt": "2017-08-12T20:24:33-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "Tj1H28KOzMM",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/Tj1H28KOzMM/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/Tj1H28KOzMM/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/Tj1H28KOzMM/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "wowww",
+        "VideoOwnerChannelId": "UCQEgneDNL8tjt6Xctoj8xeA",
+        "VideoOwnerChannelTitle": "ayad Yousifshahi",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "fAA4vn7lqW-x1Gtv5CYl1CttRqw",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5GNDg1Njc1QzZERjlFRjE5",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "This is one of the first A320 test flights, the fly-by-wire setting that went wrong.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 39,
+        "PublishedAtRaw": "2017-08-13T00:24:38Z",
+        "PublishedAt": "2017-08-12T20:24:38-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "YAg-WauGrLU",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/YAg-WauGrLU/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/YAg-WauGrLU/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/YAg-WauGrLU/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": null,
+          "ETag": null
+        },
+        "Title": "Airbus A320 test flight gone wrong",
+        "VideoOwnerChannelId": "UCed1YVX3PdiVQ1yPKNIldyw",
+        "VideoOwnerChannelTitle": "Andre Cabrino",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "jtuQF_e5aLAvQ_YvIxTIAABLHog",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4zQzFBN0RGNzNFREFCMjBE",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Original by \nidempotency\nhttps://www.youtube.com/watch?v=WB9SL-mZtVY\n\nParody of EVA ending: https://www.youtube.com/watch?v=oyFQVZ2h0V8",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 40,
+        "PublishedAtRaw": "2017-08-13T00:24:43Z",
+        "PublishedAt": "2017-08-12T20:24:43-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "1Bix44C1EzY",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/1Bix44C1EzY/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/1Bix44C1EzY/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/1Bix44C1EzY/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/1Bix44C1EzY/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/1Bix44C1EzY/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Congratulations!!!!",
+        "VideoOwnerChannelId": "UCKGtjSbWRCUK0lNARAXcABA",
+        "VideoOwnerChannelTitle": "Verticalmule",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "qQvATUO5CMN-0amuv4HhtQK5KUg",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby45NkVENTkxRDdCQUFBMDY4",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "#kattiothecat tries to escape his yearly checkup.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 41,
+        "PublishedAtRaw": "2017-08-13T00:24:49Z",
+        "PublishedAt": "2017-08-12T20:24:49-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "K9zMGICGUvM",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/K9zMGICGUvM/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/K9zMGICGUvM/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/K9zMGICGUvM/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/K9zMGICGUvM/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/K9zMGICGUvM/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Kaito Cat Hates the Vet",
+        "VideoOwnerChannelId": "UCK-a9EGXRTkaz7knmFrPlZg",
+        "VideoOwnerChannelTitle": "Fur Baby Sprinkles",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "HbDyH53XTO4YzyDi37Lbao7pBcc",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DNkMwRUI2MkI4QkI4NDFG",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "NOTICE: Please don\u0027t do this as I am not responsible if you choose to undertake the same prank (as shown in the video)\n\nMore info: A birthday cake is a cake eaten as part of a birthday celebration in many world traditions. Variations of the typical birthday cake include birthday cupcakes, cake pops, pastries, and tarts.\n\nex\u00B7plo\u00B7sion\nik\u02C8spl\u014DZH\u0259n\nnoun\na violent and destructive shattering or blowing apart of something, as is caused by a bomb.\n\nsynonyms: detonation, eruption, blowing up; More\ntechnical\na violent expansion in which energy is transmitted outward as a shock wave.\na sudden outburst of something such as noise, light, or violent emotion, especially anger.\n\u0022an explosion of anger\u0022\nsynonyms: outburst, flare-up, outbreak, eruption, storm, rush, surge;",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 42,
+        "PublishedAtRaw": "2017-08-13T00:24:54Z",
+        "PublishedAt": "2017-08-12T20:24:54-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "8o6SeDeGnSQ",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/8o6SeDeGnSQ/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/8o6SeDeGnSQ/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/8o6SeDeGnSQ/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/8o6SeDeGnSQ/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Birthday Surprise: Gone Wrong",
+        "VideoOwnerChannelId": "UCIA106jPkoT8Ct_idBr3kIg",
+        "VideoOwnerChannelTitle": "Imabigplayer",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "CF8hN4dX1P5xAHvO7bC6uj9UsxY",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5DRUQwODMxQzUyRTlGRkY3",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "Perhaps the best BMX jump ever?",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 43,
+        "PublishedAtRaw": "2017-08-13T00:25:00Z",
+        "PublishedAt": "2017-08-12T20:25:00-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "KaeYczuhDqw",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/KaeYczuhDqw/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/KaeYczuhDqw/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/KaeYczuhDqw/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/KaeYczuhDqw/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/KaeYczuhDqw/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Turned off comments because spastics think their generic comment is funny",
+        "VideoOwnerChannelId": "UCWmZdgCw0KHQz3q0Es0-HmA",
+        "VideoOwnerChannelTitle": "Your Pal",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "xGnjD2RpIop6c5XCMSvy02R9F3U",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41MzY4MzcwOUFFRUU3QzEx",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "|| !! DOG GRIPS 2 IS NOW AN NFT !! || - DETAILS BELOW \n\nhttps://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/9876922155157519728862907107155616817421775463913512362907140942512821108737/\n\n\n\nSONG NAME HUNGER GAMES DEATH GRIPS\nSee original source video here - Erik Lanier - https://www.youtube.com/watch?v=vPZuHFrawz4\n\nrip dog grips and fuck laura gundry for her bullshit copy right claims\n\nfuck kanye west\n\nalso the face in the video is anthony fantano",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 44,
+        "PublishedAtRaw": "2017-08-13T00:25:05Z",
+        "PublishedAt": "2017-08-12T20:25:05-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "lg_sd_EpTDs",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/lg_sd_EpTDs/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/lg_sd_EpTDs/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/lg_sd_EpTDs/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/lg_sd_EpTDs/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/lg_sd_EpTDs/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "dog grips 2",
+        "VideoOwnerChannelId": "UCTkHQ3ezSVnaFN75fdWWWwA",
+        "VideoOwnerChannelTitle": "HoboJIm117",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "UlhSEtNJ2ZiBIr5rkOALB5AHJBw",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4yQjZFRkExQjFGODk3RUFD",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "i want to die",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 45,
+        "PublishedAtRaw": "2017-08-13T00:25:10Z",
+        "PublishedAt": "2017-08-12T20:25:10-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "yNtySt6Fg30",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/yNtySt6Fg30/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/yNtySt6Fg30/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/yNtySt6Fg30/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/yNtySt6Fg30/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/yNtySt6Fg30/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "STOP PUTTING MEMES IN MEDIA",
+        "VideoOwnerChannelId": "UCHZ8Bcimm-viyN_GFogWWQA",
+        "VideoOwnerChannelTitle": "Infinity Media",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "5BK2XqGGKisXRrBqNxVFTuCVwbo",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4yQUJFNUVCMzVDNjcxRTlF",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "HIs reaction is priceless\n\nWe had a Maltese for about 15 years and he was beginning to get up there in age and had to one dreadful day, put him down. My father was heart broken. We all knew that we wanted a new puppy but would have to wait awhile for my father to heal. We were all heart broken. Then one day my father had come home and showed me pictures of a dog he had seen in the city, while on his lunch break at work. It was a havanese. \n\nSo after about 6 months and Christmas only being a few weeks away, my mother and I decided to go looking for a new puppy. We had told my father that we were going food shopping and went off to where we had picked out our previous little puppy 15 years earlier. \n\nMe being the animal lover that I am, I saw this little white puppy sleeping in the corner being ignored by all the other dogs. Ths is just how I found my previous puppy. I grabbed him, his tail wagged and he reminded me so much of my maltese and I knew he was the one.\n\nSo we brought him home and as my mother went off inside and asked my father to help me with the groceries (which is why he\u0027s ticked off that I am still on the car on my phone and whips up his arms), he came out and was expecting food for the week, but instead found a new best friend.\n\nDon\u0027t forget to check out other projects I have been involved in, including The Gorillaz music video for the new song Amarillo:\nhttp://www.youtube.com/watch?v=uMKzx92HA_g\n\n\nTHIS VIDEO CAN NOT BE RE-UPLOADED OR USED IN ANY WAY WITHOUT WRITTEN PERMISSION.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 46,
+        "PublishedAtRaw": "2017-08-13T00:25:16Z",
+        "PublishedAt": "2017-08-12T20:25:16-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "XJZgHAyPq6I",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/XJZgHAyPq6I/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/XJZgHAyPq6I/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/XJZgHAyPq6I/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/XJZgHAyPq6I/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/XJZgHAyPq6I/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Surprised My Dad With a New Puppy",
+        "VideoOwnerChannelId": "UCTRzhJ1ZhhtgCoXceJd7dCg",
+        "VideoOwnerChannelTitle": "Philly Littles",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "wugEit7BEsnuvQO_YhOepm8ZTyU",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby4xN0EwMDIyNjM0N0FGMkUw",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "The channel 25\u002B Animals was deleted, so this is a re-upload for the important videos playlist.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 47,
+        "PublishedAtRaw": "2019-03-04T23:53:16Z",
+        "PublishedAt": "2019-03-04T18:53:16-05:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "ssvkQ6HMlmQ",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/ssvkQ6HMlmQ/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/ssvkQ6HMlmQ/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": null,
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/ssvkQ6HMlmQ/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/ssvkQ6HMlmQ/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Riding cat",
+        "VideoOwnerChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "VideoOwnerChannelTitle": "kierancaspian",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "aV0qdwuZx9n7saAD-q6O2_HAKnM",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby41RTNBREYwMkI5QzU3RkY2",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "I was editing a larger project and I stumbled upon the most beautiful thing I\u0027ve ever seen.",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 48,
+        "PublishedAtRaw": "2017-08-13T00:25:27Z",
+        "PublishedAt": "2017-08-12T20:25:27-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "CIdXPIN3j38",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/CIdXPIN3j38/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/CIdXPIN3j38/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/CIdXPIN3j38/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/CIdXPIN3j38/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/CIdXPIN3j38/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "Nicolas Cage Driving",
+        "VideoOwnerChannelId": "UCghqSFeSBE5TbhrAsr0GCLA",
+        "VideoOwnerChannelTitle": "Alex E.",
+        "ETag": null
+      },
+      "Status": null
+    },
+    {
+      "ContentDetails": null,
+      "ETag": "SzwGNUYdfkQ3S9oYZHzfdNJlxPI",
+      "Id": "UExGc1FsZUFXWHNqXzR5RGVlYmlJQURkSDVGTWF5QmlKby5ENjI1QUI0MDI5NEQzODFE",
+      "Kind": "youtube#playlistItem",
+      "Snippet": {
+        "ChannelId": "UCqjLgu2L35BoHNnhQLzmlfQ",
+        "ChannelTitle": "kierancaspian",
+        "Description": "this is where the video is from, doofuses\nhttps://www.youtube.com/watch?v=5wER2t67TS4",
+        "PlaylistId": "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo",
+        "Position": 49,
+        "PublishedAtRaw": "2017-08-13T00:25:31Z",
+        "PublishedAt": "2017-08-12T20:25:31-04:00",
+        "ResourceId": {
+          "ChannelId": null,
+          "Kind": "youtube#video",
+          "PlaylistId": null,
+          "VideoId": "mdsS7dLR-d8",
+          "ETag": null
+        },
+        "Thumbnails": {
+          "Default__": {
+            "Height": 90,
+            "Url": "https://i.ytimg.com/vi/mdsS7dLR-d8/default.jpg",
+            "Width": 120,
+            "ETag": null
+          },
+          "High": {
+            "Height": 360,
+            "Url": "https://i.ytimg.com/vi/mdsS7dLR-d8/hqdefault.jpg",
+            "Width": 480,
+            "ETag": null
+          },
+          "Maxres": {
+            "Height": 720,
+            "Url": "https://i.ytimg.com/vi/mdsS7dLR-d8/maxresdefault.jpg",
+            "Width": 1280,
+            "ETag": null
+          },
+          "Medium": {
+            "Height": 180,
+            "Url": "https://i.ytimg.com/vi/mdsS7dLR-d8/mqdefault.jpg",
+            "Width": 320,
+            "ETag": null
+          },
+          "Standard": {
+            "Height": 480,
+            "Url": "https://i.ytimg.com/vi/mdsS7dLR-d8/sddefault.jpg",
+            "Width": 640,
+            "ETag": null
+          },
+          "ETag": null
+        },
+        "Title": "thomas kinkade PREVIEW.MOV",
+        "VideoOwnerChannelId": "UCQEUvBxemTOMYSEVaTNumRw",
+        "VideoOwnerChannelTitle": "Jamie Loftus",
+        "ETag": null
+      },
+      "Status": null
+    }
+  ],
+  "Kind": "youtube#playlistItemListResponse",
+  "NextPageToken": "EAAaBlBUOkNESQ",
+  "PageInfo": {
+    "ResultsPerPage": 50,
+    "TotalResults": 311,
+    "ETag": null
+  },
+  "PrevPageToken": null,
+  "TokenPagination": null,
+  "VisitorId": null
+}
