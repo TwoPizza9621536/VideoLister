@@ -1,18 +1,17 @@
-# Start of SPDX expressions
 # SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+#
 # SPDX-License-Identifier: CC0-1.0
-# End of SPDX expressions
 repos:
-    - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v4.0.1
-      hooks:
-          - id: check-toml
-          - id: check-yaml
-          - id: end-of-file-fixer
-          - id: trailing-whitespace
-          - id: pretty-format-json
-            args: [--autofix]
-    - repo: https://github.com/jvstein/pre-commit-dotnet-format
-      rev: v0.2
-      hooks:
-          - id: dotnet-format
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+    -   id: check-toml
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+    -   id: pretty-format-json
+        args: [--autofix]
+-   repo: https://github.com/jvstein/pre-commit-dotnet-format
+    rev: v0.2
+    hooks:
+    -   id: dotnet-format
