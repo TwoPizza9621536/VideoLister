@@ -59,6 +59,7 @@ expressions:
 
 ```text
 SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+
 SPDX-License-Identifier: BSD-3-Clause
 ```
 

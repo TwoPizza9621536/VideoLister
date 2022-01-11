@@ -1,7 +1,7 @@
-﻿/* Start of SPDX identifier expressions
+﻿/*
  * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+ *
  * SPDX-License-Identifier: BSD-3-Clause
- * End of SPDX identifier expressions
  */
 
 using Google.Apis.YouTube.v3;
@@ -17,35 +17,39 @@ namespace VideoListerLibrary
     public class VideoDownloader
     {
         /// <summary>
-        ///   The token to get the next set of videos in a play list.
-        /// </summary>
-        public static string PageToken { get; set; }
-
-        /// <summary>
         ///   The play-list that is requested to get videos from.
         /// </summary>
+        /// <value>
+        ///   A long string of characters that represents the play-list that the
+        ///   videos belong to.
+        /// </value>
         public static string PlayListId { get; set; }
 
         /// <summary>
-        ///   <see cref="AuthCredentials"/>
-        ///   that is needed to get videos.
+        ///   OAuth2 data that is needed to get videos.
         /// </summary>
+        /// <value>
+        ///   <see cref="AuthCredentials"/> from Google.
+        /// </value>
         public static YouTubeService YoutubeService { get; set; }
 
         /// <summary>
         ///   Asynchronously download 50 video meta-data at a time as a
         ///   play-list item list.
         /// </summary>
+        /// <param name="pageToken">
+        ///   The token to get the next page.
+        /// </param>
         /// <returns>
         ///   The meta-data for the 50 videos in the list.
         /// </returns>
-        public static async Task<PlaylistItemListResponse> GetPlaylist()
+        public static async Task<PlaylistItemListResponse> GetPlaylist(string pageToken = "")
         {
             PlaylistItemsResource.ListRequest request =
                 YoutubeService.PlaylistItems.List("snippet");
             request.PlaylistId = PlayListId;
             request.MaxResults = 50;
-            request.PageToken = PageToken;
+            request.PageToken = pageToken;
 
             return await request.ExecuteAsync();
         }
@@ -60,16 +64,17 @@ namespace VideoListerLibrary
         public static async Task<IList<Video>> GetVideoList()
         {
             IList<Video> videos = new List<Video>();
+            string PageToken = "";
             while (PageToken != null)
             {
-                PlaylistItemListResponse response = await GetPlaylist();
+                PlaylistItemListResponse response = await GetPlaylist(PageToken);
                 IList<PlaylistItem> videoItems = response.Items;
                 foreach (PlaylistItem item in videoItems)
                 {
                     videos.Add(new Video
                     {
                         Title = item.Snippet.Title,
-                        Id = item.Id
+                        Id = item.Snippet.ResourceId.VideoId
                     });
                 }
                 PageToken = response.NextPageToken;

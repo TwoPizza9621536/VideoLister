@@ -1,7 +1,7 @@
-/* Start of SPDX identifier expressions
+/*
  * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+ *
  * SPDX-License-Identifier: BSD-3-Clause
- * End of SPDX identifier expressions
  */
 
 using System.IO;
@@ -16,45 +16,68 @@ namespace VideoListerLibrary.Coverlet
     /// </summary>
     public class VideoDownloadTest
     {
-        private readonly string _testDirectory;
-        private readonly string _playlist;
+        /// <summary>
+        /// The credential we need to run the test.
+        /// </summary>
         private readonly AuthCredentials _credentials;
 
         /// <summary>
-        ///   A constructor that sets all the variable when the tests are run.
+        ///   The play-list that we are checking against the test data.
+        /// </summary>
+        private readonly string _playlist;
+
+        /// <summary>
+        ///   Set the configuration of the serializer of the JSON to the options
+        ///   we want.
+        /// </summary>
+        private readonly JsonSerializerOptions _options;
+
+        /// <summary>
+        ///   The schema we wanted the data to check against.
+        /// </summary>
+        private readonly string _schema;
+
+        /// <summary>
+        ///   A constructor that sets all the variable we defined when the tests
+        ///   are run.
         /// </summary>
         public VideoDownloadTest()
         {
-            _testDirectory = Path.Combine(Directory.GetCurrentDirectory(), "tests");
-            _playlist = "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo";
             _credentials = new AuthCredentials();
+            _playlist = "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo";
+            _options = new JsonSerializerOptions
+            {
+                AllowTrailingCommas = false,
+                WriteIndented = true
+            };
+            _schema = "https://twopizza9621536.github.io/schema/json/videolist.json";
         }
 
         /// <summary>
         ///   <para>
-        ///     Check if it can download a single page from a play-list and
-        ///     gives the same videos from the play-list.
+        ///     Check if it can download an entire play-list (which include
+        ///     downloading a single page) and if the list is correct.
         ///   </para>
         ///   <para>
         ///     Asserts True if the result matches the expected output.
         ///   </para>
         /// </summary>
         [Fact]
-        public async Task SinglePageTest()
+        public async Task VideoListTest()
         {
             VideoDownloader.YoutubeService = await _credentials.GetAuthCredentials();
             VideoDownloader.PlayListId = _playlist;
 
-            var result = await VideoDownloader.GetPlaylist();
-            var options = new JsonSerializerOptions
+            var result = await VideoDownloader.GetVideoList();
+            VideoList list = new VideoList()
             {
-                WriteIndented = true,
-                MaxDepth = 64,
-                AllowTrailingCommas = false
+                Schema = _schema,
+                PlaylistId = _playlist,
+                PlaylistName = "important videos",
+                Videos = result
             };
-            string json = JsonSerializer.Serialize(result, options);
-
-            using (StreamReader reader = new StreamReader(Path.Combine(_testDirectory, "../../../SinglePageTest.json")))
+            var json = JsonSerializer.Serialize(list, _options);
+            using (StreamReader reader = new StreamReader("../../../tests/VideoListTest.json"))
             {
                 string expectedData = reader.ReadToEnd().TrimEnd();
                 Assert.Equal(expectedData, json);
