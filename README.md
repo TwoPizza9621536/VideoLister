@@ -1,4 +1,4 @@
-# VideoListerLibrary
+# VideoLister
 
 A lister for videos from YouTube in .NET C# if you hate the web app or mobile
 app.
