@@ -7,18 +7,20 @@ SPDX-License-Identifier: CC0-1.0
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <Authors>Samuel Wu</Authors>
+        <Authors>The Video Lister Contributors</Authors>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister</PackageProjectUrl>
         <PackageTags>YouTube</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Copyright>2021, Samuel Wu</Copyright>
+        <Copyright>2021, The Video Lister Contributors</Copyright>
         <Description>A test GUI program that goes along with the LikedVideoLister Library.</Description>
         <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
         <Version>2.0.0</Version>
+        <IsPublishable>False</IsPublishable>
+        <IsPackable>False</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -36,6 +38,7 @@ SPDX-License-Identifier: CC0-1.0
         <None Include="../README.md" Pack="True" PackagePath="/" />
         <None Include="../LICENSE" Pack="True" PackagePath="" />
         <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
+        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
     </ItemGroup>
-
 </Project>

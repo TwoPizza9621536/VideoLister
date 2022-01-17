@@ -1,19 +1,19 @@
 <!--
-SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
 
 SPDX-License-Identifier: CC0-1.0
 -->
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
-        <Authors>Samuel Wu</Authors>
-        <RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
+        <Authors>The Video Lister Contributors</Authors>
+        <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister-dotnet</PackageProjectUrl>
         <PackageTags>YouTube</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Copyright>2021-2022, Samuel Wu</Copyright>
+        <Copyright>2021-2022, The Video Lister Contributors</Copyright>
         <Description>A lister for liked videos on YouTube.</Description>
         <PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -21,17 +21,21 @@ SPDX-License-Identifier: CC0-1.0
         <EnableNETAnalyzers>True</EnableNETAnalyzers>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <IsPublishable>True</IsPublishable>
+        <IsPackable>True</IsPackable>
     </PropertyGroup>
-
-    <ItemGroup>
-        <None Include="../README.md" Pack="True" PackagePath="/" />
-        <None Include="../LICENSE" Pack="True" PackagePath="" />
-        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
-    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Google.Apis.YouTube.v3" Version="1.55.0.2449" />
         <PackageReference Include="System.Text.Json" Version="6.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Include="../README.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
+        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
+        <None Include="../LICENSE" Pack="True" PackagePath="" />
+        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
+    </ItemGroup>
 </Project>

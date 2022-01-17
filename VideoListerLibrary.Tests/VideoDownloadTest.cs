@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+ * SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
@@ -9,7 +9,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace VideoListerLibrary.Coverlet
+namespace VideoListerLibrary.Tests
 {
     /// <summary>
     ///   Unit tests to check if the down-loader is working as intended.
@@ -27,8 +27,8 @@ namespace VideoListerLibrary.Coverlet
         private readonly string _playlist;
 
         /// <summary>
-        ///   Set the configuration of the serializer of the JSON to the options
-        ///   we want.
+        ///   Set the configuration of the <see cref="JsonSerializer"/> to the
+        ///   options we want to test against with.
         /// </summary>
         private readonly JsonSerializerOptions _options;
 

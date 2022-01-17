@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Start of SPDX identifier expressions
-    SPDX-FileCopyrightText: 2021-2022 Samuel Wu
-    SPDX-License-Identifier: BSD-3-Clause
-    End of SPDX identifier expressions-->
+<!--
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
+
+SPDX-License-Identifier: BSD-3-Clause
+-->
 <!-- Generated with glade 3.38.2
 
 Copyright (c) 2021, Samuel Wu
@@ -49,7 +50,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <property name="copyright" translatable="yes">Copyright (c) 2021, Samuel Wu</property>
         <property name="comments" translatable="yes">
             A Video Lister for liked videos from YouTube.
-        </property>
+</property>
         <property name="website">https://github.com/TwoPizza9621536/LikedVideoLister</property>
         <property name="website-label" translatable="yes">Homepage</property>
         <property name="license" translatable="yes">
@@ -80,7 +81,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
             OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
             OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-        </property>
+</property>
         <property name="logo-icon-name">application-x-executable</property>
         <property name="wrap-license">True</property>
         <property name="license-type">custom</property>
@@ -239,7 +240,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <property name="label" translatable="yes">
                     Welcome to the Liked Video Lister.
                     This program will list videos that are liked from a video source provider, mainly YouTube.
-                </property>
+</property>
                 <property name="justify">center</property>
                 <property name="wrap">True</property>
             </object>
@@ -257,7 +258,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <property name="label" translatable="yes">
                     This application is Open Source under the BSD 3-Clause License.
                     By using this application, you automatically agree to the Google's and YouTube's ToS and Privacy Policy as it uses YouTube's API to download video info.
-                </property>
+</property>
                 <property name="justify">center</property>
                 <property name="wrap">True</property>
             </object>

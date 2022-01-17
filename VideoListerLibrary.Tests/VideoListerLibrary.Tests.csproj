@@ -1,26 +1,26 @@
 <!--
-SPDX-FileCopyrightText: 2021-2022 Samuel Wu
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
 
 SPDX-License-Identifier: CC0-1.0
 -->
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
 
-        <IsPackable>false</IsPackable>
+        <IsPackable>False</IsPackable>
 
-        <Authors>Samuel Wu</Authors>
-        <RepositoryUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet.git</RepositoryUrl>
+        <Authors>The Video Lister Contributors</Authors>
+        <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageProjectUrl>https://github.com/Twopizza9621536/LikedVideoLister-dotnet</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister</PackageProjectUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
-        <Copyright>2021-2022, Samuel Wu</Copyright>
+        <Copyright>2021-2022, The Video Lister Contributors</Copyright>
         <Description>Unit test for the library.</Description>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <IsPublishable>False</IsPublishable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -46,6 +46,9 @@ SPDX-License-Identifier: CC0-1.0
 
     <ItemGroup>
         <None Include="../README.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
+        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
         <None Include="../LICENSE" Pack="True" PackagePath="" />
         <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
     </ItemGroup>

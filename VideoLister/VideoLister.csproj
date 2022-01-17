@@ -1,0 +1,28 @@
+<!--
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
+
+SPDX-License-Identifier: CC0-1.0
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <StartupObject>VideoLister.Program</StartupObject>
+        <IsPublishable>False</IsPublishable>
+        <IsPackable>False</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="../VideoListerLibrary/VideoListerLibrary.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
+        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
+        <None Include="../LICENSE" Pack="True" PackagePath="" />
+        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
+    </ItemGroup>
+</Project>
