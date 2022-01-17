@@ -1,6 +1,7 @@
 # SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
 #
 # SPDX-License-Identifier: CC0-1.0
+
 coveragereport/
 coverage.cobertura.xml
 client_secret.json
