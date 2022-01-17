@@ -18,18 +18,19 @@ SPDX-License-Identifier: CC0-1.0
     </ItemGroup>
 
     <ItemGroup>
-        <None Include="../README.md" Pack="True" PackagePath="/" />
-        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
-        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
-        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
-        <None Include="../LICENSE" Pack="True" PackagePath="" />
-        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="MinVer" Version="2.5.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
+        <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
+        <None Include="../CHANGELOG.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
+        <None Include="../LICENSE" Pack="True" PackagePath="" />
+        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
     </ItemGroup>
 </Project>

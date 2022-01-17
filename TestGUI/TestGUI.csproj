@@ -40,9 +40,11 @@ SPDX-License-Identifier: CC0-1.0
 
     <ItemGroup>
         <None Include="../README.md" Pack="True" PackagePath="/" />
-        <None Include="../LICENSE" Pack="True" PackagePath="" />
-        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
         <None Include="../CONTRIBUTING.md" Pack="True" PackagePath="/" />
         <None Include="../CODE_OF_CONDUCT.md" Pack="True" PackagePath="/" />
+        <None Include="../CHANGELOG.md" Pack="True" PackagePath="/" />
+        <None Include="../CONTRIBUTORS.md" Pack="True" PackagePath="/" />
+        <None Include="../LICENSE" Pack="True" PackagePath="" />
+        <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
     </ItemGroup>
 </Project>
