@@ -23,7 +23,6 @@ SPDX-License-Identifier: CC0-1.0
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <IsPublishable>True</IsPublishable>
         <IsPackable>True</IsPackable>
-        <MinVerTagPrefix>v</MinVerTagPrefix>
     </PropertyGroup>
 
     <ItemGroup>
