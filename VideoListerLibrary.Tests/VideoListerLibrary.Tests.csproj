@@ -9,7 +9,7 @@ SPDX-License-Identifier: CC0-1.0
 
         <IsPackable>False</IsPackable>
 
-        <Authors>The Video Lister Contributors</Authors>
+        <Authors>The VideoLister Contributors</Authors>
         <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister</PackageProjectUrl>
@@ -17,7 +17,7 @@ SPDX-License-Identifier: CC0-1.0
         <NeutralLanguage>en-US</NeutralLanguage>
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
-        <Copyright>2021-2022, The Video Lister Contributors</Copyright>
+        <Copyright>2021-2022, The VideoLister Contributors</Copyright>
         <Description>Unit test for the library.</Description>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <IsPublishable>False</IsPublishable>

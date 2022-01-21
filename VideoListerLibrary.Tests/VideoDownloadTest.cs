@@ -68,7 +68,7 @@ namespace VideoListerLibrary.Tests
             VideoDownloader.YoutubeService = await _credentials.GetAuthCredentials();
             VideoDownloader.PlayListId = _playlist;
 
-            var result = await VideoDownloader.GetVideoList();
+            System.Collections.Generic.IList<Video> result = await VideoDownloader.GetVideoList();
             VideoList list = new VideoList()
             {
                 Schema = _schema,
@@ -76,7 +76,7 @@ namespace VideoListerLibrary.Tests
                 PlaylistName = "important videos",
                 Videos = result
             };
-            var json = JsonSerializer.Serialize(list, _options);
+            string json = JsonSerializer.Serialize(list, _options);
             using (StreamReader reader = new StreamReader("../../../tests/VideoListTest.json"))
             {
                 string expectedData = reader.ReadToEnd().TrimEnd();
