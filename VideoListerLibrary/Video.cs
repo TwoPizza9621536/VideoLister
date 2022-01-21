@@ -12,7 +12,7 @@ namespace VideoListerLibrary
     public class Video
     {
         /// <summary>
-        ///  The id of the video.
+        ///   The id of the video.
         /// </summary>
         /// <value>
         ///   A long list of characters that represents the video in the URL.

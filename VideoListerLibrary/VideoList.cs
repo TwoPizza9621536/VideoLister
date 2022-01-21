@@ -44,7 +44,7 @@ namespace VideoListerLibrary
         ///   The variable to the list of videos.
         /// </summary>
         /// <value>
-        ///   A IList of the <see cref="Video"/>.
+        ///   A IList of the <see cref="Video" />.
         /// </value>
         public IList<Video> Videos { set; get; }
     }

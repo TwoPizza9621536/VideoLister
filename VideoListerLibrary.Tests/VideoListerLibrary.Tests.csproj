@@ -53,4 +53,8 @@ SPDX-License-Identifier: CC0-1.0
         <None Include="../LICENSE" Pack="True" PackagePath="" />
         <None Include="../ThirdPartyLicenses.txt" Pack="True" PackagePath="/" />
     </ItemGroup>
+
+    <ItemGroup>
+      <EditorConfigFiles Remove="C:\Users\Samgo\GitRepos\VideoLister\VideoListerLibrary.Tests\.editorconfig" />
+    </ItemGroup>
 </Project>

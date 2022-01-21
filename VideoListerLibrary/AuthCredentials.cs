@@ -4,19 +4,19 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-using Google.Apis.Auth.OAuth2;
-using Google.Apis.Services;
-using Google.Apis.Util.Store;
-using Google.Apis.YouTube.v3;
 using System;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using Google.Apis.YouTube.v3;
 
 namespace VideoListerLibrary
 {
     /// <summary>
-    /// The credentials needed to get personal play list, e.g liked videos.
+    ///   The credentials needed to get personal play list, e.g liked videos.
     /// </summary>
     public class AuthCredentials
     {
@@ -25,17 +25,16 @@ namespace VideoListerLibrary
         /// </summary>
         /// <returns>
         ///   <para>
-        ///     The OAuth 2.0 and
-        ///     <see cref="YouTubeService"/>
-        ///     used to get video meta-data.
+        ///     The OAuth 2.0 and <see cref="YouTubeService" /> used to get
+        ///     video meta-data.
         ///   </para>
         /// </returns>
-        /// <exception cref = "FileNotFoundException"/>
+        /// <exception cref="FileNotFoundException" />
         [STAThread]
         public async Task<YouTubeService> GetAuthCredentials()
         {
             UserCredential Credential;
-            using (FileStream Stream = new FileStream(
+            using (var Stream = new FileStream(
                 "client_secret.json",
                 FileMode.Open,
                 FileAccess.Read))
