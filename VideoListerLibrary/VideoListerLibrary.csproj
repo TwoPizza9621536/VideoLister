@@ -6,14 +6,14 @@ SPDX-License-Identifier: CC0-1.0
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
-        <Authors>The VideoLister Contributors</Authors>
+        <Authors>The Video Lister Contributors</Authors>
         <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister-dotnet</PackageProjectUrl>
         <PackageTags>YouTube</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Copyright>2021-2022, The VideoLister Contributors</Copyright>
+        <Copyright>2021-2022, The Video Lister Contributors</Copyright>
         <Description>A lister for liked videos on YouTube.</Description>
         <PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
