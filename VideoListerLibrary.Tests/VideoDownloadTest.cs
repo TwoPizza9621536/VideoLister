@@ -1,9 +1,10 @@
-/*
+﻿/*
  * SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
  *
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -17,7 +18,7 @@ namespace VideoListerLibrary.Tests
     public class VideoDownloadTest
     {
         /// <summary>
-        /// The credential we need to run the test.
+        ///   The credential we need to run the test.
         /// </summary>
         private readonly AuthCredentials _credentials;
 
@@ -27,7 +28,7 @@ namespace VideoListerLibrary.Tests
         private readonly string _playlist;
 
         /// <summary>
-        ///   Set the configuration of the <see cref="JsonSerializer"/> to the
+        ///   Set the configuration of the <see cref="JsonSerializer" /> to the
         ///   options we want to test against with.
         /// </summary>
         private readonly JsonSerializerOptions _options;
@@ -56,7 +57,8 @@ namespace VideoListerLibrary.Tests
         /// <summary>
         ///   <para>
         ///     Check if it can download an entire play-list (which include
-        ///     downloading a single page) and if the list is correct.
+        ///     downloading a single
+        ///     page) and if the list is correct.
         ///   </para>
         ///   <para>
         ///     Asserts True if the result matches the expected output.
@@ -68,20 +70,18 @@ namespace VideoListerLibrary.Tests
             VideoDownloader.YoutubeService = await _credentials.GetAuthCredentials();
             VideoDownloader.PlayListId = _playlist;
 
-            var result = await VideoDownloader.GetVideoList();
-            VideoList list = new VideoList()
+            IList<Video> result = await VideoDownloader.GetVideoList();
+            var list = new VideoList()
             {
                 Schema = _schema,
                 PlaylistId = _playlist,
                 PlaylistName = "important videos",
                 Videos = result
             };
-            var json = JsonSerializer.Serialize(list, _options);
-            using (StreamReader reader = new StreamReader("../../../tests/VideoListTest.json"))
-            {
-                string expectedData = reader.ReadToEnd().TrimEnd();
-                Assert.Equal(expectedData, json);
-            }
+            string json = JsonSerializer.Serialize(list, _options);
+            using var reader = new StreamReader("../../../tests/VideoListTest.json");
+            string expectedData = reader.ReadToEnd().TrimEnd();
+            Assert.Equal(expectedData, json);
         }
     }
 }

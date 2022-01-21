@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-using Google.Apis.YouTube.v3;
-using Google.Apis.YouTube.v3.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
 
 namespace VideoListerLibrary
 {
@@ -29,7 +29,7 @@ namespace VideoListerLibrary
         ///   OAuth2 data that is needed to get videos.
         /// </summary>
         /// <value>
-        ///   <see cref="AuthCredentials"/> from Google.
+        ///   <see cref="AuthCredentials" /> from Google.
         /// </value>
         public static YouTubeService YoutubeService { get; set; }
 
@@ -56,15 +56,15 @@ namespace VideoListerLibrary
 
         /// <summary>
         ///   Recursively download meta-data from a play-list using
-        ///   <see cref="GetPlaylist"/>.
+        ///   <see cref="GetPlaylist" />.
         /// </summary>
         /// <returns>
         ///   A list of videos from a play-list.
         /// </returns>
         public static async Task<IList<Video>> GetVideoList()
         {
-            IList<Video> videos = new List<Video>();
-            string PageToken = "";
+            var videos = new List<Video>();
+            var PageToken = "";
             while (PageToken != null)
             {
                 PlaylistItemListResponse response = await GetPlaylist(PageToken);
