@@ -38,13 +38,8 @@ namespace VideoListerLibrary
         public async Task<YouTubeService> GetAuthCredentials(string clientFile = "client_secret.json")
         {
             UserCredential Credential;
-<<<<<<< HEAD
-            using (var Stream = new FileStream(
-                "client_secret.json",
-=======
             using (FileStream Stream = new FileStream(
                 clientFile,
->>>>>>> development-gui
                 FileMode.Open,
                 FileAccess.Read))
             {
