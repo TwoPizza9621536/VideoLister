@@ -23,6 +23,10 @@ namespace VideoListerLibrary
         /// <summary>
         ///   Asynchronously gets YouTube credential using OAuth 2.0.
         /// </summary>
+        /// <param name="clientFile">
+        ///   A string to the filename of the client secret. The default value
+        ///   is "client_secret.json"
+        /// </param>
         /// <returns>
         ///   <para>
         ///     The OAuth 2.0 and <see cref="YouTubeService" /> used to get
@@ -31,11 +35,16 @@ namespace VideoListerLibrary
         /// </returns>
         /// <exception cref="FileNotFoundException" />
         [STAThread]
-        public async Task<YouTubeService> GetAuthCredentials()
+        public async Task<YouTubeService> GetAuthCredentials(string clientFile = "client_secret.json")
         {
             UserCredential Credential;
+<<<<<<< HEAD
             using (var Stream = new FileStream(
                 "client_secret.json",
+=======
+            using (FileStream Stream = new FileStream(
+                clientFile,
+>>>>>>> development-gui
                 FileMode.Open,
                 FileAccess.Read))
             {

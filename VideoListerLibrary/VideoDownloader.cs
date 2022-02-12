@@ -38,7 +38,8 @@ namespace VideoListerLibrary
         ///   play-list item list.
         /// </summary>
         /// <param name="pageToken">
-        ///   The token to get the next page.
+        ///   The token to get the next page. The default value is an empty
+        ///   string.
         /// </param>
         /// <returns>
         ///   The meta-data for the 50 videos in the list.

@@ -1,12 +1,8 @@
-<!--
-SPDX-FileCopyrightText: 2021-2022 Samuel Wu
-
-SPDX-License-Identifier: CC0-1.0
--->
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
         <Authors>The Video Lister Contributors</Authors>
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
@@ -18,20 +14,19 @@ SPDX-License-Identifier: CC0-1.0
         <Copyright>2021, The Video Lister Contributors</Copyright>
         <Description>A test GUI program that goes along with the LikedVideoLister Library.</Description>
         <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
-        <Version>2.0.0</Version>
         <IsPublishable>False</IsPublishable>
         <IsPackable>False</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Remove="**/*.glade" />
-        <EmbeddedResource Include="**/*.glade">
-            <LogicalName>%(Filename)%(Extension)</LogicalName>
-        </EmbeddedResource>
+        <None Remove=".gitignore" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="GtkSharp" Version="3.24.24.34" />
+        <PackageReference Include="Avalonia" Version="0.10.10" />
+        <PackageReference Include="Avalonia.Desktop" Version="0.10.10" />
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="0.10.10" />
         <PackageReference Include="MinVer" Version="2.5.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
