@@ -2,8 +2,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestGUI", "TestGUI\TestGUI.csproj", "{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoListerLibrary", "VideoListerLibrary\VideoListerLibrary.csproj", "{97D205DC-01C8-4F6A-8D05-8F8A39FB85B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoLister", "VideoLister\VideoLister.csproj", "{8ACE6483-AD07-4CDF-9C7D-6D947944C2E5}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoLister", "VideoLister\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoListerLibrary.Tests", "VideoListerLibrary.Tests\VideoListerLibrary.Tests.csproj", "{305CEF33-F1C6-47AB-B5C2-CF3356E74EBD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoLister.Gui", "VideoLister.Gui\VideoLister.Gui.csproj", "{D5254351-31A5-46F7-95EE-B1A17727C784}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoLister.Gui", "VideoLister.Gui\VideoLister.Gui.csproj", "{6554A140-A206-48EC-A25D-1D78CC955320}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{895F601E-96BC-4B2D-A3A9-A5B0EAA8953B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97D205DC-01C8-4F6A-8D05-8F8A39FB85B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97D205DC-01C8-4F6A-8D05-8F8A39FB85B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D205DC-01C8-4F6A-8D05-8F8A39FB85B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,10 +31,10 @@ Global
 		{305CEF33-F1C6-47AB-B5C2-CF3356E74EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305CEF33-F1C6-47AB-B5C2-CF3356E74EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305CEF33-F1C6-47AB-B5C2-CF3356E74EBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5254351-31A5-46F7-95EE-B1A17727C784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5254351-31A5-46F7-95EE-B1A17727C784}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5254351-31A5-46F7-95EE-B1A17727C784}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5254351-31A5-46F7-95EE-B1A17727C784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6554A140-A206-48EC-A25D-1D78CC955320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6554A140-A206-48EC-A25D-1D78CC955320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6554A140-A206-48EC-A25D-1D78CC955320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6554A140-A206-48EC-A25D-1D78CC955320}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

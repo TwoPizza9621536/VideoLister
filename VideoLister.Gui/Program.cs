@@ -1,45 +1,23 @@
-/*
- * SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
-using Gtk;
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Controls.ApplicationLifetimes;
 using System;
 
-namespace VideoLister.Gui;
-
-internal class Program
+namespace VideoLister.Gui
 {
-    [STAThread]
-    public static void Main()
+    internal class Program
     {
-        Application.Init();
+        // Initialization code. Don't use any Avalonia, third-party APIs or any
+        // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
+        // yet and stuff might break.
+        [STAThread]
+        public static void Main(string[] args) => BuildAvaloniaApp()
+            .StartWithClassicDesktopLifetime(args);
 
-        var App = new Application("org.VideoLister.Gui", GLib.ApplicationFlags.None);
-        App.Register(GLib.Cancellable.Current);
-
-        var Win = new MainWindow();
-        App.AddWindow(Win);
-
-        var menu = new GLib.Menu();
-        menu.AppendItem(new GLib.MenuItem("Help", "app.help"));
-        menu.AppendItem(new GLib.MenuItem("About", "app.about"));
-        menu.AppendItem(new GLib.MenuItem("Quit", "app.quit"));
-        App.AppMenu = menu;
-
-        var AboutAction = new GLib.SimpleAction("About", null);
-        AboutAction.Activated += AboutActivated;
-        App.AddAction(AboutAction);
-
-        Win.ShowAll();
-        Application.Run();
-    }
-
-    private static void AboutActivated(object sender, EventArgs e)
-    {
-        var about = new AboutDialog();
-        about.Show();
-        about.Close();
+        // Avalonia configuration, don't remove; also used by visual designer.
+        public static AppBuilder BuildAvaloniaApp()
+            => AppBuilder.Configure<App>()
+                .UsePlatformDetect()
+                .LogToTrace();
     }
 }

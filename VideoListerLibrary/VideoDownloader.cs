@@ -29,7 +29,7 @@ namespace VideoListerLibrary
         ///   OAuth2 data that is needed to get videos.
         /// </summary>
         /// <value>
-        ///   <see cref="AuthCredentials"/> from Google.
+        ///   <see cref="AuthCredentials" /> from Google.
         /// </value>
         public static YouTubeService YoutubeService { get; set; }
 
@@ -38,7 +38,8 @@ namespace VideoListerLibrary
         ///   play-list item list.
         /// </summary>
         /// <param name="pageToken">
-        ///   The token to get the next page.
+        ///   The token to get the next page. The default value is an empty
+        ///   string.
         /// </param>
         /// <returns>
         ///   The meta-data for the 50 videos in the list.
@@ -56,7 +57,7 @@ namespace VideoListerLibrary
 
         /// <summary>
         ///   Recursively download meta-data from a play-list using
-        ///   <see cref="GetPlaylist"/>.
+        ///   <see cref="GetPlaylist" />.
         /// </summary>
         /// <returns>
         ///   A list of videos from a play-list.
