@@ -16,7 +16,7 @@ using Google.Apis.YouTube.v3;
 namespace VideoListerLibrary
 {
     /// <summary>
-    ///   The credentials needed to get personal play list, e.g liked videos.
+    ///   The credentials needed to get personal play list, e.g. liked videos.
     /// </summary>
     public class AuthCredentials
     {

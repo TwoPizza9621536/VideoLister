@@ -79,7 +79,7 @@ namespace VideoListerLibrary.Tests
                 Videos = result
             };
             string json = JsonSerializer.Serialize(list, _options);
-            using var reader = new StreamReader("../../../tests/VideoListTest.json");
+            using var reader = new StreamReader("../../../VideoListTest.json");
             string expectedData = reader.ReadToEnd().TrimEnd();
             Assert.Equal(expectedData, json);
         }

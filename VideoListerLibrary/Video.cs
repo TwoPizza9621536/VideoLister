@@ -7,7 +7,7 @@
 namespace VideoListerLibrary
 {
     /// <summary>
-    ///   A class for YouTube videos.
+    ///   A class to store the title and the id for YouTube videos.
     /// </summary>
     public class Video
     {

@@ -10,7 +10,7 @@ using System.Text.Json.Serialization;
 namespace VideoListerLibrary
 {
     /// <summary>
-    ///   A class to store the title, id of the videos.
+    ///   A class to store the videos with the playlist name and id.
     /// </summary>
     public class VideoList
     {
