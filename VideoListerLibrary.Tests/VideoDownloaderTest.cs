@@ -15,7 +15,7 @@ namespace VideoListerLibrary.Tests
     /// <summary>
     ///   Unit tests to check if the down-loader is working as intended.
     /// </summary>
-    public class VideoDownloadTest
+    public class VideoDownloaderTest
     {
         /// <summary>
         ///   The credential we need to run the test.
@@ -42,7 +42,7 @@ namespace VideoListerLibrary.Tests
         ///   A constructor that sets all the variable we defined when the tests
         ///   are run.
         /// </summary>
-        public VideoDownloadTest()
+        public VideoDownloaderTest()
         {
             _credentials = new AuthCredentials();
             _playlist = "PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo";

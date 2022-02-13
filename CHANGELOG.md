@@ -1,5 +1,13 @@
 # Changelog
 
+---
+
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
+
+SPDX-License-Identifier: CC0-1.0
+
+---
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
@@ -42,9 +50,3 @@ and this project adheres to
 
 - The offical implantation of the Video Lister which can only list liked videos
 from YouTube. Also has a JSON encoder and decoder using Newtonsoft.Json.
-
----
-
-SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
-
-SPDX-License-Identifier: CC0-1.0

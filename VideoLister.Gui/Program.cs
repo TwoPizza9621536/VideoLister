@@ -1,7 +1,12 @@
+﻿/*
+ * SPDX-FileCopyrightText: 2022 The Video Lister Contributors
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+using System;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
-using System;
 
 namespace VideoLister.Gui
 {

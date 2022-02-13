@@ -1,3 +1,8 @@
+﻿/*
+ * SPDX-FileCopyrightText: 2022 The Video Lister Contributors
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
