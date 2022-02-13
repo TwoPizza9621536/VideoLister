@@ -22,7 +22,7 @@ dotnet add package VideoListerLibrary
 ```
 
 This adds a reference to tell `dotnet` to add the library to the project file,
-and downloads the library for it to be used in your project.
+and downloads the library ready to be used in your project.
 
 ### Usage
 
@@ -37,11 +37,14 @@ using VideoListerLibrary;
 var auth = new AuthCredentials
 VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
 
+// Set the playlist you want to download.
+VideoDownloader.PlayListId = "PLAYLIST_ID"
+
 // Returns a object that contains the first 50 videos from a playlist.
 var videos = await GetSinglePage();
 ```
 
-To download a entire playlist, write this:
+To download an entire playlist, write this:
 
 ```cs
 using VideoListerLibrary;
@@ -50,14 +53,19 @@ using VideoListerLibrary;
 var auth = new AuthCredentials
 VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
 
+// Set the playlist you want to download.
+VideoDownloader.PlayListId = "PLAYLIST_ID"
+
 // Returns a IList of videos with a title and id.
 var videos = await GetVideoList()
 ```
 
+Make sure you replace `PLAYLIST_ID` with the actual id.
+
 ## Development
 
 In order to get started you must have .Net SDK that supports .Net Standard 2.0
-or later. Some projects requires .NET 5 or later.
+or later. Some projects require .NET 5 or later.
 
 ```bash
 git clone https://github.com/TwoPizza9621536/VideoLister.git
@@ -130,7 +138,7 @@ SPDX-License-Identifier: BSD-3-Clause
 
 See [LICENSE](LICENSE) for the full text.
 
-Additionally you are subjected under Google's and YouTube's ToS and Privacy
+Additionally, you are subjected under Google's and YouTube's ToS and Privacy
 Policy for APIs and Services.
 
 This project uses third party libraries, see

@@ -44,7 +44,7 @@ namespace VideoListerLibrary
         /// <returns>
         ///   The meta-data for the 50 videos in the list.
         /// </returns>
-        public static async Task<PlaylistItemListResponse> GetPlaylist(string pageToken = "")
+        public static async Task<PlaylistItemListResponse> GetSinglePage(string pageToken = "")
         {
             PlaylistItemsResource.ListRequest request =
                 YoutubeService.PlaylistItems.List("snippet");
@@ -57,7 +57,7 @@ namespace VideoListerLibrary
 
         /// <summary>
         ///   Recursively download meta-data from a play-list using
-        ///   <see cref="GetPlaylist" />.
+        ///   <see cref="GetSinglePage" />.
         /// </summary>
         /// <returns>
         ///   A list of videos from a play-list.
@@ -68,7 +68,7 @@ namespace VideoListerLibrary
             var PageToken = "";
             while (PageToken != null)
             {
-                PlaylistItemListResponse response = await GetPlaylist(PageToken);
+                PlaylistItemListResponse response = await GetSinglePage(PageToken);
                 IList<PlaylistItem> videoItems = response.Items;
                 foreach (PlaylistItem item in videoItems)
                 {

@@ -4,7 +4,7 @@ Thank you for contributing to this project,because this is a hobby project most
 of the time I cannot work on the code so thank you. Before you can push to the
 repository you will need follow these guidelines.
 
-It is required to follow these guidelines so you can respect our time down the
+It is required to follow these guidelines, so you can respect our time down the
 line and thank yourself in the future that you do not have to keep coming to us
 trying to fix something that can be resolved here.
 
@@ -41,14 +41,14 @@ To submit a contribution quickly do these steps:
       columns.
 4. Document your code using XML documentation comments with indentation of 2
    spaces inside the tags.
-5. Before committing you are required to sign-off your commit as you ar
-   agreeing to the Developer Certificate of Origin that you own this code and
+5. Before committing you are required to sign off your commit as you ar
+   agreeing to the Developer Certificate of Origin that you own this code, and
    you agree that we can use this code. You are also required to sign the commit
    to verify that the code you submitted is from you.
 
 ### Creating a Fork
 
-First go the [repository page][1] and on the top right corner of the page,
+First go the [repository page][1] and in the top right corner of the page,
 click fork. Then you clone your fork just like any git repository. Next, create
 a new branch by typing this command:
 
@@ -57,7 +57,7 @@ git checkout -b `your branch name`
 ```
 
 Replace `your branch name` with the branch name you want to use, make sure it
-reflect that changes you want to make. Now you can make your changes and start
+reflects that changes you want to make. Now you can make your changes and start
 contributing.
 
 ### Coding Style
@@ -160,7 +160,7 @@ more information.
 Below is a copy of a [Developer Certificate of Origin][4] in which you agree
 that the code you have submitted is yours or that you are allowed to use this
 code and that we can use the code you have submitted for this project under the
-[BSD 3-Clause License](License) using the following SPDX license identifier
+[BSD 3-Clause License](LICENSE) using the following SPDX license identifier
 expressions:
 
 ```text
