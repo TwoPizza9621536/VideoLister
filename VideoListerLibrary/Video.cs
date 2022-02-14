@@ -4,6 +4,8 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
+using System.Collections.Generic;
+
 namespace VideoListerLibrary
 {
     /// <summary>
@@ -26,5 +28,21 @@ namespace VideoListerLibrary
         ///   A string that consist of at least 5 characters.
         /// </value>
         public string Title { get; set; }
+
+        /// <summary>
+        ///   Returns the Video object as a dictionary.
+        /// </summary>
+        /// <returns>
+        ///   IDictionary&lt;string,string&gt;
+        ///   <see cref="IDictionary{TKey, TValue}" />
+        /// </returns>
+        public IDictionary<string, string> ToDictionary()
+        {
+            return new Dictionary<string, string>
+            {
+                { "Title", Title },
+                { "Id", Id }
+            };
+        }
     }
 }
