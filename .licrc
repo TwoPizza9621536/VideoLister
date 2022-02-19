@@ -8,4 +8,4 @@ accepted = ["BSD-3-Clause"]
 [dependencies]
 # This will allow users to flag some dependencies so that Licensebat will not
 # check for their license.
-ignored=["Google.Apis.YouTube.v3", "GtkSharp"]
+ignored=["Google.Apis.YouTube.v3"]

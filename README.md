@@ -1,7 +1,7 @@
 # VideoLister
 
-A .NET library to list videos from YouTube in a playlist. Provides an
-abstraction layer to have a better time coding.
+A .NET library and Python library to list videos from YouTube in a playlist.
+Provides an abstraction layer to have a better time coding.
 
 ## Table of Contents
 
@@ -13,102 +13,13 @@ abstraction layer to have a better time coding.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Getting Started
-
-To include this library in your project run:
-
-```bash
-dotnet add package VideoListerLibrary
-```
-
-This adds a reference to tell `dotnet` to add the library to the project file,
-and downloads the library ready to be used in your project.
-
-### Usage
-
-The following examples will be using C# 9.0's Top-Level Statement.
-
-To download the first 50 videos from a playlist, write this:
-
-```cs
-using VideoListerLibrary;
-
-// Sets up authentication to get videos.
-var auth = new AuthCredentials
-VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
-
-// Set the playlist you want to download.
-VideoDownloader.PlayListId = "PLAYLIST_ID"
-
-// Returns a object that contains the first 50 videos from a playlist.
-var videos = await GetSinglePage();
-```
-
-To download an entire playlist, write this:
-
-```cs
-using VideoListerLibrary;
-
-// Sets up authentication to get videos.
-var auth = new AuthCredentials
-VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
-
-// Set the playlist you want to download.
-VideoDownloader.PlayListId = "PLAYLIST_ID"
-
-// Returns a IList of videos with a title and id.
-var videos = await GetVideoList()
-```
-
-Make sure you replace `PLAYLIST_ID` with the actual id.
-
 ## Development
 
-In order to get started you must have .Net SDK that supports .Net Standard 2.0
-or later. Some projects require .NET 5 or later.
+In order to get started download the repository.
 
 ```bash
 git clone https://github.com/TwoPizza9621536/VideoLister.git
-cd VideoLister
-dotnet build
 ```
-
-This will download the repository and build the library and all the application
-that it comes with.
-
-To run the applications, go into the directory the application, then run:
-
-```bash
-dotnet run
-```
-
-This will build (if the `build` command has not yet been run) and runs the
-application, depending on which application a GUI will appears in the console
-or as a window.
-
-### Testing
-
-To test the library, run:
-
-```bash
-cd VideoListerLibrary.Tests
-dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura
-```
-
-These commands go to the directory of the test project and run the test. The
-test will produce a report of how much of the code is covered under a test.
-
-Use [ReportGenerator](https://github.com/danielpalme/ReportGenerator) to see the
-report by running this:
-
-```bash
-reportgenerator \
--reports:"coverage.cobertura.xml" \
--targetdir:"coveragereport" \
--reporttypes:Html
-```
-
-Then open the index.html file in the `coveragereport` directory.
 
 ## Changelog
 
