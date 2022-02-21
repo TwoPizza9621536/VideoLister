@@ -20,7 +20,12 @@ class VideoDownloaderTest(TestCase):
 
     def test_get_video_list(self: "VideoDownloaderTest") -> None:
         """Check if it can download an entire play-list and if the list is
-        correct."""
+        correct.
+
+        Args:
+            self (VideoDownloaderTest): The test object to test
+            'video_downloader'.
+        """
 
         credentials = get_auth_credentials()
 
@@ -38,8 +43,12 @@ class VideoDownloaderTest(TestCase):
         self.assertEqual(json.dumps(playlist.to_dict()), json.dumps(json_data))
 
     def test_to_object_exceptions(self: "VideoDownloaderTest") -> None:
-        """Test exceptions if there are missing keys or values"""
+        """Test exceptions if there are missing keys or values.
 
+        Args:
+            self (VideoDownloaderTest): The test object to test
+            exceptions in 'video_downloader'.
+        """
         dict_to_video_data = {"Title": "Testing 123"}
         dict_to_video_list_data = {"PlaylistId": "ABC1DEF2GHI3JKL4MNO5"}
 

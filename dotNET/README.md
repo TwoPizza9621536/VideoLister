@@ -19,7 +19,7 @@ To download the first 50 videos from a playlist, write this:
 using VideoListerLibrary;
 
 // Sets up authentication to get videos.
-var auth = new AuthCredentials
+var auth = new AuthCredentials()
 VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
 
 // Set the playlist you want to download.
@@ -35,7 +35,7 @@ To download an entire playlist, write this:
 using VideoListerLibrary;
 
 // Sets up authentication to get videos.
-var auth = new AuthCredentials
+var auth = new AuthCredentials()
 VideoDownloader.AuthCredentials = await auth.GetAuthCredentials();
 
 // Set the playlist you want to download.

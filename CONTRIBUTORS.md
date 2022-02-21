@@ -9,11 +9,9 @@ it to our attention through creating an issue here:
 This project uses the [Developer Certificate of Origin][1] to commit code under
 the BSD 3-Clause License using the following SPDX identifier expressions:
 
-```text
-SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
+    SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
 
-SPDX-License-Identifier: BSD-3-Clause
-```
+    SPDX-License-Identifier: BSD-3-Clause
 
 ## Table of Contents
 

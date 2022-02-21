@@ -12,7 +12,15 @@ from googleapiclient.discovery import build
 
 def get_auth_credentials(client_secret: str = "client_secret.json") -> Any:
     """The credentials needed to get personal play list, e.g. liked
-    videos."""
+    videos.
+
+    Args:
+        client_secret (str, optional): A string to the filename of the client
+        secret. Defaults to "client_secret.json".
+
+    Returns:
+        Any: The OAuth 2.0 used to getvideo meta-data.
+    """
 
     credentials = InstalledAppFlow.from_client_secrets_file(
         client_secret,

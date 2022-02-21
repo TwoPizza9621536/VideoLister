@@ -20,7 +20,15 @@ class VideoList:
         self.videos: list[Video] = videos
 
     def to_dict(self: "VideoList") -> dict[str, Any]:
-        """Convert the VideoList object to a dictionary for json usage."""
+        """Convert the VideoList object to a dictionary for json usage.
+
+        Args:
+            self (VideoList): The VideoList object that stores the videos in a
+            schema.
+
+        Returns:
+            dict[str, Any]: The VideoList object as a dictionary.
+        """
         videos_list = []
 
         for video in self.videos:
@@ -35,7 +43,20 @@ class VideoList:
 
     @staticmethod
     def to_video_list(data: dict[str, Any]) -> "VideoList":
-        """Convert the formatted json data back to a VideoList object."""
+        """Convert the formatted json data back to a VideoList object.
+
+        Args:
+            data (dict[str, Any]): The dictionary that constains the keys:
+            'PlaylistId', 'PlaylistName' and 'Videos'.
+
+        Raises:
+            ValueError: If dictionary does not contain any of the following
+            keys: 'PlaylistId', 'PlaylistName' or 'Videos'.
+
+        Returns:
+            VideoList: The VideoList object that was converted from a
+            dictionary from json.
+        """
 
         if ("PlaylistId" in data and "PlaylistName" in data
                 and "Videos" in data):

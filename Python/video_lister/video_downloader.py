@@ -18,7 +18,17 @@ class VideoDownloader:
     def get_single_page(self: "VideoDownloader",
                         page_token: str = "") -> Any:
         """Asynchronously download 50 video meta-data at a time as a
-        play-list item list."""
+        play-list item list.
+
+        Args:
+            self (VideoDownloader): The VideoDownloader object to download
+            videos.
+            page_token (str, optional): _description_. Defaults to an empty
+            string.
+
+        Returns:
+            Any: The meta-data for the 50 videos in the list.
+        """
 
         return self.auth_credentials.playlistItems().list(
             maxResults=50,
@@ -29,7 +39,15 @@ class VideoDownloader:
 
     def get_video_list(self: "VideoDownloader") -> list[Video]:
         """Recursively download meta-data from a play-list using
-        'get_single_page'."""
+        'get_single_page'.
+
+        Args:
+            self (VideoDownloader): The VideoDownloader object to download
+            videos.
+
+        Returns:
+            list[Video]: A list of videos from a play-list.
+        """
 
         videos = []
         page_token = ""

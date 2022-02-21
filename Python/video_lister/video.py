@@ -12,12 +12,32 @@ class Video:
         self.video_title: str = video_title
 
     def to_dict(self: "Video") -> dict[str, str]:
-        """Convert the Video object to a readable dictionary."""
+        """Convert the Video object to a readable dictionary.
+
+        Args:
+            self (Video): The Video object that stores the title and the id of
+            the video.
+
+        Returns:
+            dict[str, str]: The Video object as a dictionary.
+        """
         return {"Id": self.video_id, "Title": self.video_title}
 
     @staticmethod
     def to_video(video: dict[str, str]) -> "Video":
-        """Convert the json object or dictionary back to a Video object """
+        """Convert the json object or dictionary back to a Video object
+
+        Args:
+            video (dict[str, str]): The dictionary that constains the keys:
+            'Id' and 'Title'.
+
+        Raises:
+            ValueError: If dictionary does not contain any of the following
+            keys: 'Id' or 'Title'.
+
+        Returns:
+            Video: The Video object that was converted from a dictionary.
+        """
         if "Id" in video and "Title" in video:
             return Video(video["Id"], video["Title"])
 

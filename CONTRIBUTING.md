@@ -41,14 +41,8 @@ To submit a contribution quickly do these steps:
 
 1. Create your own fork of the code.
 2. Make the changes in your fork.
-3. Make sure the coding style is using the C# Coding Conventions with these:
-    - Allman brace indentation style.
-    - 4 spaces for tabs.
-    - The method signature must be on one line.
-    - Lines must not exceed 120 columns and preferably less than or up to 80
-      columns.
-4. Document your code using XML documentation comments with indentation of 2
-   spaces inside the tags.
+3. Make sure you are following the [coding style](#coding-style).
+4. Make sure you are documenting your code.
 5. Before committing you are required to sign off your commit as you ar
    agreeing to the Developer Certificate of Origin that you own this code, and
    you agree that we can use this code. You are also required to sign the commit
@@ -70,48 +64,36 @@ contributing.
 
 ### Coding Style
 
-The coding style of this project is following the C# Coding Conventions with
-these rules:
+The coding style for C# is the [C# Coding Conventions][2] with these rules:
 
 - The indentation style we are using is the Allman.
 - The indentations must be 4 spaces for tabs.
-- The method signature must be on one line.
+- The method signature must be on the same line.
 - Each line must not exceed 120 columns and preferably less than or up to 80
   columns.
 
-An example can be found in [CODINGSTYLE.md](CODINGSTYLE.md)
+In Python, the coding style is [PEP8](https://pep8.org) with these rules:
 
-An editor configuration file has been created to help you follow our style.
+- Strings must be double quoted.
+
+You can use the C# extension or dotnet-format and autopep8 formatter plus pylint
+to format the files for you. Pre-commit will do this for you if you have it
+installed.
 
 ### Documentation
 
-To document your code use the [XML documentation comments][2]. The comments must
-be intended with two spaces in the tags like this:
-
-```xml
-<--
-In order to document use '///' before an XML tag in the code and the
-documentation before the method, property, class, etc.
-<summery>
-  Insert documentation here.
-  <see cref="Property">
-    A variable
-  </see>
-  <seealso cref="Method"/>
-</summery>
-<returns>
-  Insert return type here.
-</returns>
--->
-```
+To document your code use XML Comments for C# and docstring for Python. You can
+use an auto generator to create the boilerplate for you. The C# extension and
+autoDocstring should be good enough. Either typing three forward slashes '///'
+or selecting on 'Generate DocString'.
 
 ### Testing
 
 You are required to test the code you have written to create a test, go into the
-VideoLister. Tests directory and write a test based on the code you have written.
+VideoLister. Tests directory and write a test based on the code you have
+written.
 
-To test the code see the [testing section](README.md#testing) in the readme
-file.
+See documentation for the language you want to test for more information.
 
 ### Before Committing
 
@@ -119,9 +101,9 @@ First check you have formatted, documented and tested your code as mention
 above. Next use these command to commit your changes:
 
 ```bash
-git add .                               # Stage your changes
-git commit -S -s -m "Your changes here" # -S Sign your code
-git push                                # -s Sign off your code
+git add .                                  # Stage your changes
+git commit -S -s -m -a "Your changes here" # -S Sign your code
+git push                                   # -s Sign off your code
 ```
 
 This command will commit your changes, sign your commit and sign off your
@@ -188,6 +170,6 @@ By making a contribution to this project, I certify that:
 End of Developer Certificate of Origin
 
 [1]: <https://github.com/TwoPizza9621536/VideoLister>
-[2]: <https://docs.microsoft.com/dotnet/csharp/language-reference/xmldoc/>
-[3]: <https://docs.github.com/en/authentication/managing-commit-signature-verification>
+[2]: <https://docs.microsoft.com/dotnet/csharp/fundamentals/coding-style/coding-conventions>
+[3]: <https://docs.github.com/authentication/managing-commit-signature-verification>
 [4]: <https://developercertificate.org>

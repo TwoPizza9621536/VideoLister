@@ -6,9 +6,7 @@ Provides an abstraction layer to have a better time coding.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-  - [Usage](#usage)
 - [Development](#development)
-  - [Testing](#testing)
 - [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License](#license)
@@ -20,6 +18,9 @@ In order to get started download the repository.
 ```bash
 git clone https://github.com/TwoPizza9621536/VideoLister.git
 ```
+
+Then see the development section for the language you want to develop in, either
+in .NET/C# or Python.
 
 ## Changelog
 

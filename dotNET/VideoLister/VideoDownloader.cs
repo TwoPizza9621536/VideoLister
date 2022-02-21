@@ -68,7 +68,8 @@ namespace VideoListerLibrary
             var PageToken = "";
             while (PageToken != null)
             {
-                PlaylistItemListResponse response = await GetSinglePage(PageToken);
+                PlaylistItemListResponse response =
+                    await GetSinglePage(PageToken);
                 IList<PlaylistItem> videoItems = response.Items;
                 foreach (PlaylistItem item in videoItems)
                 {
