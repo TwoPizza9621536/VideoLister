@@ -15,27 +15,30 @@ class VideoDownloader:
         self.playlist_id: str = ""
         self.auth_credentials: Any = None
 
-    def get_single_page(self: "VideoDownloader",
-                        page_token: str = "") -> Any:
+    def get_single_page(self: "VideoDownloader", page_token: str = "") -> Any:
         """Asynchronously download 50 video meta-data at a time as a
         play-list item list.
 
         Args:
             self (VideoDownloader): The VideoDownloader object to download
             videos.
-            page_token (str, optional): _description_. Defaults to an empty
-            string.
+            page_token (str, optional): The token to get the next page.
+            Defaults to an empty string.
 
         Returns:
             Any: The meta-data for the 50 videos in the list.
         """
 
-        return self.auth_credentials.playlistItems().list(
-            maxResults=50,
-            pageToken=page_token,
-            part="snippet",
-            playlistId=self.playlist_id
-        ).execute()
+        return (
+            self.auth_credentials.playlistItems()
+            .list(
+                maxResults=50,
+                pageToken=page_token,
+                part="snippet",
+                playlistId=self.playlist_id,
+            )
+            .execute()
+        )
 
     def get_video_list(self: "VideoDownloader") -> list[Video]:
         """Recursively download meta-data from a play-list using
@@ -59,12 +62,14 @@ class VideoDownloader:
                 videos.append(
                     Video(
                         video["snippet"]["resourceId"]["videoId"],
-                        video["snippet"]["title"]
+                        video["snippet"]["title"],
                     )
                 )
 
-            page_token = (response["nextPageToken"]
-                          if "nextPageToken" in response
-                          else None)
+            page_token = (
+                response["nextPageToken"]
+                if "nextPageToken" in response
+                else None
+            )
 
         return videos

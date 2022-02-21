@@ -73,11 +73,10 @@ namespace VideoListerLibrary
                 IList<PlaylistItem> videoItems = response.Items;
                 foreach (PlaylistItem item in videoItems)
                 {
-                    videos.Add(new Video
-                    {
-                        Title = item.Snippet.Title,
-                        Id = item.Snippet.ResourceId.VideoId
-                    });
+                    videos.Add(
+                        new Video(
+                            item.Snippet.ResourceId.VideoId,
+                            item.Snippet.Title));
                 }
                 PageToken = response.NextPageToken;
             }

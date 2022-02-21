@@ -23,8 +23,7 @@ def get_auth_credentials(client_secret: str = "client_secret.json") -> Any:
     """
 
     credentials = InstalledAppFlow.from_client_secrets_file(
-        client_secret,
-        ["https://www.googleapis.com/auth/youtube.readonly"]
+        client_secret, ["https://www.googleapis.com/auth/youtube.readonly"]
     ).run_console()
 
     return build("youtube", "v3", credentials=credentials)

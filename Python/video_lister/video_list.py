@@ -11,10 +11,15 @@ from video_lister import Video
 class VideoList:
     """A class to store the videos with the playlist name and id."""
 
-    def __init__(self: "VideoList", playlist_id: str, playlist_name: str,
-                 videos: list[Video]) -> None:
-        self.schema: str = "https://twopizza9621536.github.io" \
-                           "/schema/json/videolist.json"
+    def __init__(
+        self: "VideoList",
+        playlist_id: str,
+        playlist_name: str,
+        videos: list[Video],
+    ) -> None:
+        self.schema: str = (
+            "https://twopizza9621536.github.io" "/schema/json/videolist.json"
+        )
         self.playlist_id: str = playlist_id
         self.playlist_name: str = playlist_name
         self.videos: list[Video] = videos
@@ -38,7 +43,7 @@ class VideoList:
             "$Schema": self.schema,
             "PlaylistId": self.playlist_id,
             "PlaylistName": self.playlist_name,
-            "Videos": videos_list
+            "Videos": videos_list,
         }
 
     @staticmethod
@@ -58,15 +63,21 @@ class VideoList:
             dictionary from json.
         """
 
-        if ("PlaylistId" in data and "PlaylistName" in data
-                and "Videos" in data):
+        if (
+            "PlaylistId" in data
+            and "PlaylistName" in data
+            and "Videos" in data
+        ):
             video_list = []
             for video in data["Videos"]:
                 video_list.append(Video.to_video(video))
 
-            return VideoList(data["PlaylistId"], data["PlaylistName"],
-                             video_list)
+            return VideoList(
+                data["PlaylistId"], data["PlaylistName"], video_list
+            )
 
-        raise ValueError("The parsed data does not contain one or more of the "
-                         "following keys:\n"
-                         "'PlaylistId', 'PlaylistName' or 'Videos'")
+        raise ValueError(
+            "The parsed data does not contain one or more of the "
+            "following keys:\n"
+            "'PlaylistId', 'PlaylistName' or 'Videos'"
+        )

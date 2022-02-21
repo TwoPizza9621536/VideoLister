@@ -41,5 +41,7 @@ class Video:
         if "Id" in video and "Title" in video:
             return Video(video["Id"], video["Title"])
 
-        raise ValueError("The one of the videos does not contain the keys:\n"
-                         "'Id' or 'Title'")
+        raise ValueError(
+            "The one of the videos does not contain the keys:\n"
+            "'Id' or 'Title'"
+        )

@@ -30,6 +30,21 @@ namespace VideoListerLibrary
         public string Title { get; set; }
 
         /// <summary>
+        ///   A constructor to create a new instance of the Video object.
+        /// </summary>
+        /// <param name="id">
+        ///   The id of the video.
+        /// </param>
+        /// <param name="title">
+        ///  The title of the video.
+        /// </param>
+        public Video(string id, string title)
+        {
+            Id = id;
+            Title = title;
+        }
+
+        /// <summary>
         ///   Returns the Video object as a dictionary.
         /// </summary>
         /// <returns>
