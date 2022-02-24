@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: CC0-1.0
 [tool.poetry]
 name = "video-lister"
-version = "1.0.0"
+version = "2.0.0"
 description = ""
 authors = ["The Video Lister Contributors"]
 license = "BSD-3-Clause"
