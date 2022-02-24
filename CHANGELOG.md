@@ -17,6 +17,18 @@ and this project adheres to
 
 ## Unreleased
 
+## [2.0.0] - 2022-23-02
+
+### Added
+
+- Python version of the library.
+- To dictionary functions.
+
+### Changed
+
+- Set default values for arguments.
+- Constructor for classes.
+
 ## [1.0.0] - 2022-17-01
 
 ### Added

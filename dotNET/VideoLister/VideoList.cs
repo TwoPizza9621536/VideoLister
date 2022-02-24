@@ -47,5 +47,24 @@ namespace VideoListerLibrary
         ///   A IList of the <see cref="Video" />.
         /// </value>
         public IList<Video> Videos { set; get; }
+
+        /// <summary>
+        ///   A constructor to create a new instance of the VideoList object.
+        /// </summary>
+        /// <param name="playlistid">
+        ///   The id of the play-list.
+        /// </param>
+        /// <param name="playlistname">
+        ///   The name of the play-list.
+        /// </param>
+        /// <param name="videos">
+        ///   A list of videos in a play-list.
+        /// </param>
+        public VideoList(string playlistid, string playlistname, List<Video> videos)
+        {
+            PlaylistId = playlistid;
+            PlaylistName = playlistname;
+            Videos = videos;
+        }
     }
 }
