@@ -24,8 +24,8 @@ class Video:
         return {"Id": self.video_id, "Title": self.video_title}
 
     @staticmethod
-    def to_video(video: dict[str, str]) -> "Video":
-        """Convert the json object or dictionary back to a Video object
+    def from_json(video: dict[str, str]) -> "Video":
+        """Convert a json object back to a Video object.
 
         Args:
             video (dict[str, str]): The dictionary that constains the keys:
@@ -45,3 +45,8 @@ class Video:
             "The one of the videos does not contain the keys:\n"
             "'Id' or 'Title'"
         )
+
+    def __eq__(self: "Video", other: object) -> bool:
+        if self is None or other is None or not isinstance(other, Video):
+            return False
+        return self.video_id == other.video_id

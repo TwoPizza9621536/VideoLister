@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 """A template to store the list of videos from a playlist into json."""
 
+from itertools import zip_longest
 from typing import Any
 
 from video_lister import Video
@@ -28,8 +29,8 @@ class VideoList:
         """Convert the VideoList object to a dictionary for json usage.
 
         Args:
-            self (VideoList): The VideoList object that stores the videos in a
-            schema.
+            self (VideoList): The VideoList object instance that stores the
+            videos in a schema.
 
         Returns:
             dict[str, Any]: The VideoList object as a dictionary.
@@ -47,7 +48,7 @@ class VideoList:
         }
 
     @staticmethod
-    def to_video_list(data: dict[str, Any]) -> "VideoList":
+    def from_json(data: dict[str, Any]) -> "VideoList":
         """Convert the formatted json data back to a VideoList object.
 
         Args:
@@ -70,7 +71,7 @@ class VideoList:
         ):
             video_list = []
             for video in data["Videos"]:
-                video_list.append(Video.to_video(video))
+                video_list.append(Video.from_json(video))
 
             return VideoList(
                 data["PlaylistId"], data["PlaylistName"], video_list
@@ -81,3 +82,11 @@ class VideoList:
             "following keys:\n"
             "'PlaylistId', 'PlaylistName' or 'Videos'"
         )
+
+    def __eq__(self: "VideoList", other: object) -> bool:
+        if not isinstance(other, VideoList):
+            return False
+        for a, b in zip_longest(self.videos, other.videos):
+            if not a == b:
+                return False
+        return True

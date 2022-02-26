@@ -39,7 +39,7 @@ class VideoDownloaderTest(TestCase):
         with open(TEST_PLAYLIST_DATA, encoding="utf-8") as test_file:
             json_data = json.loads(test_file.read())
 
-        VideoList.to_video_list(json_data)
+        VideoList.from_json(json_data)
         self.assertEqual(json.dumps(playlist.to_dict()), json.dumps(json_data))
 
     def test_to_object_exceptions(self: "VideoDownloaderTest") -> None:
@@ -53,7 +53,7 @@ class VideoDownloaderTest(TestCase):
         dict_to_video_list_data = {"PlaylistId": "ABC1DEF2GHI3JKL4MNO5"}
 
         with self.assertRaises(ValueError):
-            Video.to_video(dict_to_video_data)
+            Video.from_json(dict_to_video_data)
 
         with self.assertRaises(ValueError):
-            VideoList.to_video_list(dict_to_video_list_data)
+            VideoList.from_json(dict_to_video_list_data)
