@@ -34,11 +34,6 @@ namespace VideoListerLibrary.Tests
         private readonly JsonSerializerOptions _options;
 
         /// <summary>
-        ///   The schema we wanted the data to check against.
-        /// </summary>
-        private readonly string _schema;
-
-        /// <summary>
         ///   A constructor that sets all the variable we defined when the tests
         ///   are run.
         /// </summary>
@@ -51,7 +46,6 @@ namespace VideoListerLibrary.Tests
                 AllowTrailingCommas = false,
                 WriteIndented = true
             };
-            _schema = "https://twopizza9621536.github.io/schema/json/videolist.json";
         }
 
         /// <summary>
@@ -71,13 +65,7 @@ namespace VideoListerLibrary.Tests
             VideoDownloader.PlayListId = _playlist;
 
             IList<Video> result = await VideoDownloader.GetVideoList();
-            var list = new VideoList()
-            {
-                Schema = _schema,
-                PlaylistId = _playlist,
-                PlaylistName = "important videos",
-                Videos = result
-            };
+            var list = new VideoList(_playlist, "important videos", result);
             string json = JsonSerializer.Serialize(list, _options);
             using var reader = new StreamReader("../../../VideoListTest.json");
             string expectedData = reader.ReadToEnd().TrimEnd();

@@ -60,7 +60,7 @@ namespace VideoListerLibrary
         /// <param name="videos">
         ///   A list of videos in a play-list.
         /// </param>
-        public VideoList(string playlistid, string playlistname, List<Video> videos)
+        public VideoList(string playlistid, string playlistname, IList<Video> videos)
         {
             PlaylistId = playlistid;
             PlaylistName = playlistname;
