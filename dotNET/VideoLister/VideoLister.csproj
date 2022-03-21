@@ -27,7 +27,7 @@ SPDX-License-Identifier: CC0-1.0
 
     <ItemGroup>
         <PackageReference Include="Google.Apis.YouTube.v3" Version="1.56.0.2449" />
-        <PackageReference Include="MinVer" Version="2.5.0">
+        <PackageReference Include="MinVer" Version="3.1.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
