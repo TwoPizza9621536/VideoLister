@@ -8,12 +8,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "nuget"
-    directory: "/dotNET"
-    schedule:
-      interval: "weekly"
-
   - package-ecosystem: "pip"
-    directory: "/Python"
+    directory: "/"
     schedule:
       interval: "weekly"
