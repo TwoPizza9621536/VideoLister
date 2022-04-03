@@ -1,0 +1,40 @@
+<!--
+SPDX-FileCopyrightText: 2021-2022 The Video Lister Contributors
+
+SPDX-License-Identifier: CC0-1.0
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.1;netstandard2.0</TargetFrameworks>
+        <Authors>The Video Lister Contributors</Authors>
+        <RepositoryUrl>https://github.com/Twopizza9621536/VideoLister.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/Twopizza9621536/VideoLister-dotnet</PackageProjectUrl>
+        <PackageTags>YouTube</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <Copyright>2021-2022, The Video Lister Contributors</Copyright>
+        <Description>A lister for liked videos on YouTube.</Description>
+        <PackageReleaseNotes>Rewrite to do a single download of a video list.</PackageReleaseNotes>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+        <EnableNETAnalyzers>True</EnableNETAnalyzers>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <IsPublishable>True</IsPublishable>
+        <IsPackable>True</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Google.Apis.YouTube.v3" Version="1.56.0.2449" />
+        <PackageReference Include="MinVer" Version="2.5.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="System.Text.Json" Version="6.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../README.md" Pack="True" PackagePath="/" />
+    </ItemGroup>
+</Project>
