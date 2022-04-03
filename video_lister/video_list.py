@@ -74,9 +74,7 @@ class VideoList:
             for video in data["Videos"]:
                 video_list.append(Video.from_json(video))
 
-            return cls(
-                data["PlaylistId"], data["PlaylistName"], video_list
-            )
+            return cls(data["PlaylistId"], data["PlaylistName"], video_list)
 
         raise ValueError(
             "The parsed data does not contain one or more of the "
