@@ -5,6 +5,7 @@
 
 from itertools import zip_longest
 from typing import Any
+from typing_extensions import Self
 
 from video_lister import Video
 
@@ -25,11 +26,11 @@ class VideoList:
         self.playlist_name: str = playlist_name
         self.videos: list[Video] = videos
 
-    def to_dict(self: "VideoList") -> dict[str, Any]:
+    def to_dict(self: Self) -> dict[str, Any]:
         """Convert the VideoList object to a dictionary for json usage.
 
         Args:
-            self (VideoList): The VideoList object instance that stores the
+            self (Self): The object instance that stores the
             videos in a schema.
 
         Returns:
@@ -47,8 +48,8 @@ class VideoList:
             "Videos": videos_list,
         }
 
-    @staticmethod
-    def from_json(data: dict[str, Any]) -> "VideoList":
+    @classmethod
+    def from_json(cls: Self, data: dict[str, Any]) -> Self:
         """Convert the formatted json data back to a VideoList object.
 
         Args:
@@ -60,7 +61,7 @@ class VideoList:
             keys: 'PlaylistId', 'PlaylistName' or 'Videos'.
 
         Returns:
-            VideoList: The VideoList object that was converted from a
+            VideoList: The object that was converted from a
             dictionary from json.
         """
 
@@ -73,7 +74,7 @@ class VideoList:
             for video in data["Videos"]:
                 video_list.append(Video.from_json(video))
 
-            return VideoList(
+            return cls(
                 data["PlaylistId"], data["PlaylistName"], video_list
             )
 

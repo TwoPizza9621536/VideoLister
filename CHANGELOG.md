@@ -17,6 +17,8 @@ and this project adheres to
 
 ## Unreleased
 
+- Decapitate the .NET Library.
+
 ## [2.0.0] - 2022-23-02
 
 ### Added

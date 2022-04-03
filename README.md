@@ -1,6 +1,6 @@
 # VideoLister
 
-A .NET library and Python library to list videos from YouTube in a playlist.
+A Python library that list videos from YouTube in a playlist.
 Provides an abstraction layer to have a better time coding.
 
 ## Table of Contents

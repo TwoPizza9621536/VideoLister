@@ -64,28 +64,18 @@ contributing.
 
 ### Coding Style
 
-The coding style for C# is the [C# Coding Conventions][2] with these rules:
-
-- The indentation style we are using is the Allman.
-- The indentations must be 4 spaces for tabs.
-- The method signature must be on the same line.
-- Each line must not exceed 120 columns and preferably less than or up to 80
-  columns.
-
-In Python, the coding style is [PEP8](https://pep8.org) with these rules:
+The coding style for Python, the coding style is [PEP8](https://pep8.org) with
+these rules:
 
 - Strings must be double quoted.
 
-You can use the C# extension or dotnet-format and autopep8 formatter plus pylint
-to format the files for you. Pre-commit will do this for you if you have it
-installed.
+You can use autopep8 formatter plus pylint to format the files for you.
+Pre-commit will do this for you if you have it installed.
 
 ### Documentation
 
-To document your code use XML Comments for C# and docstring for Python. You can
-use an auto generator to create the boilerplate for you. The C# extension and
-autoDocstring should be good enough. Either typing three forward slashes '///'
-or selecting on 'Generate DocString'.
+To document your code use docstring. You can use an auto generator to create the
+boilerplate for you. The autoDocstring should be good enough.
 
 ### Testing
 
@@ -110,13 +100,13 @@ This command will commit your changes, sign your commit and sign off your
 commit. Signing the commit prevents malicious code making its way in to the
 repository and check the commit is from you. You must have a PGP Key or X.509
 certificate to sign your commit. To learn about signing commits, see this
-[tutorial from GitHub][3] about signing commits. Signing off the commit grant us
+[tutorial from GitHub][2] about signing commits. Signing off the commit grant us
 the permission to use the code in your commit for this project, see below for
 more information.
 
 ## Developer Certificate of Origin
 
-Below is a copy of a [Developer Certificate of Origin][4] in which you agree
+Below is a copy of a [Developer Certificate of Origin][3] in which you agree
 that the code you have submitted is yours or that you are allowed to use this
 code and that we can use the code you have submitted for this project under the
 [BSD 3-Clause License](LICENSE) using the following SPDX license identifier
@@ -170,6 +160,5 @@ By making a contribution to this project, I certify that:
 End of Developer Certificate of Origin
 
 [1]: <https://github.com/TwoPizza9621536/VideoLister>
-[2]: <https://docs.microsoft.com/dotnet/csharp/fundamentals/coding-style/coding-conventions>
-[3]: <https://docs.github.com/authentication/managing-commit-signature-verification>
-[4]: <https://developercertificate.org>
+[2]: <https://docs.github.com/authentication/managing-commit-signature-verification>
+[3]: <https://developercertificate.org>
