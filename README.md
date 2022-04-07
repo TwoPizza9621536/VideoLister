@@ -1,7 +1,9 @@
-# VideoLister
+# VideoLister [Moved and Decapitated]
 
 A Python library that list videos from YouTube in a playlist.
 Provides an abstraction layer to have a better time coding.
+
+[See Social Media Catalog for the new version.](https://github.com/Twopizza9621536/SocialMediaCatalog)
 
 ## Table of Contents
 
